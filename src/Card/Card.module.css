@@ -1,0 +1,39 @@
+.base {
+  /* Default (fallback) design tokens as CSS variables */
+  --font-family-heading: Montserrat, Arial, sans-serif;
+  --wc-title-font-size: 20px;
+  --wc-title-color: rgb(48, 80, 131);
+  --wc-text-color-mid: #808080;
+  --wc-border: 1px solid var(--palette-accent-lines, #e0e0e0);
+  --wc-border-radius: var(--border-radius, 4px);
+  --color-primary: #0fb5c3;
+  --color-secondary: rgb(48, 80, 131);
+  --wc-max-width: 320px;
+  --wc-min-height: 320px;
+  --wc-card-height: 100%;
+  --theme-badge-bg: #eaeaea;
+  --theme-badge-font: var(--font-heading, sans-serif);
+  --theme-badge-fg: #333;
+}
+
+.wrapper {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  border: var(--wc-border, 1px solid var(--palette-accent-lines, #e0e0e0));
+  border-radius: var(--wc-border-radius, var(--border-radius, 4px));
+  box-sizing: border-box;
+  height: var(--wc-card-height);
+  min-height: var(--wc-min-height);
+  margin: 0.25rem 0;
+  max-width: 100%;
+  padding: 1rem;
+  position: relative;
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .wrapper {
+    margin: 0.25rem;
+  }
+}

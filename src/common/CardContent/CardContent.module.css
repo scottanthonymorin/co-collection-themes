@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid #e0e0e0; */
+}
+
+/* Alignment variants */
+.left {
+  justify-content: flex-start;
+}
+.center {
+  justify-content: center;
+}
+.right {
+  justify-content: flex-end;
+}
+
+.top {
+  margin-bottom: 1em;
+}
+.middle {
+  flex-grow: 1;
+  flex-direction: column;
+}
+.bottom {
+  margin-top: 1em;
+}

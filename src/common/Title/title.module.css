@@ -1,0 +1,25 @@
+.title {
+  background: none;
+  font-weight: 500;
+  /* height: 52px; */
+  line-height: 24px;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.title > a,
+.link {
+  color: var(--wc-title-color);
+  font-family: var(--font-family-heading);
+  font-size: var(--wc-title-font-size);
+  line-height: 0%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link:hover {
+  border-bottom: 1px solid var(--palette-primary, #000);
+}

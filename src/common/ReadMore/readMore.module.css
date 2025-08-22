@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+}
+
+.link {
+  padding: 0;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--color-secondary);
+  cursor: pointer;
+  border-bottom: 1px solid var(--color-primary);
+  font-family: var(--font-heading, sans-serif);
+  font-weight: 500;
+  transition: all 200ms ease;
+  margin: 10px 0 0 0;
+  width: fit-content;
+}
+
+.link:hover {
+  color: var(--color-primary);
+  border-bottom: 1px solid var(--color-secondary);
+  text-decoration: none;
+}

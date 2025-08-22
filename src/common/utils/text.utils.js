@@ -1,0 +1,20 @@
+export const truncateText = (text, n, useWordBoundary = true) => {
+  if (text.length <= n) {
+    return text;
+  }
+  const subString = text.slice(0, n - 1);
+  return (
+    (useWordBoundary ? subString.slice(0, subString.lastIndexOf(' ')) : subString) + '...'
+  );
+};
+
+// TODO: use response from BE rather than this sanitize to display values in FE.
+export const sanitizeSearch = (search) => {
+  return (
+    search
+      // Temporarily remove ampersands - TODO: look into this later
+      .replace(/&/g, '') // remove ampersands
+      .replace(/^\s+|\s+$/g, '') // remove leading/trailing spaces
+      .replace(/\s\s+/g, ' ') // collapse whitespace
+  );
+};

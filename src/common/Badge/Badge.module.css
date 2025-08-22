@@ -1,0 +1,8 @@
+.wrapper {
+  background: var(--theme-badge-bg);
+  border-radius: 3px;
+  font-family: var(--font-family-heading);
+  font-size: 12px;
+  line-height: 1rem;
+  padding: 5px 10px;
+}
