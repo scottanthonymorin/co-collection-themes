@@ -1,6 +1,6 @@
-import React from 'react';
 import { AfricanGivingTraditionsCard } from '../src';
-import { africanGivingTraditionsItem } from './_mocks/item';
+
+import item from './_mocks/african-giving-traditions-item.json';
 import CardContainer from './_helpers/CardContainer';
 
 export default {
@@ -10,9 +10,6 @@ export default {
 
 export const Default = () => (
   <CardContainer>
-    <AfricanGivingTraditionsCard
-      item={africanGivingTraditionsItem}
-      itemLink={africanGivingTraditionsItem.link}
-    />
+    <AfricanGivingTraditionsCard item={item} />
   </CardContainer>
 );

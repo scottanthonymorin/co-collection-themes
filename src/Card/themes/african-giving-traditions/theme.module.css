@@ -1,12 +1,11 @@
 .themeRoot {
   /* Theme-level variable overrides (only differences from base) */
-  --wc-border: 1px solid var(--palette-accent-lines);
-  --wc-border-radius: 6px;
-  --wc-min-height: 320px;
+  --card-border-radius: 6px;
+  --card-min-height: 320px;
 }
 
 .desc {
-  color: var(--wc-text-color-mid);
+  color: var(--card-text-color-mid);
   font-size: 13px;
   height: 52px;
   line-height: 18px;
@@ -20,7 +19,7 @@
 }
 
 .author {
-  color: var(--wc-text-color-mid);
+  color: var(--card-text-color-mid);
   font-size: 11px;
   line-height: 1.3em;
   margin: 0;

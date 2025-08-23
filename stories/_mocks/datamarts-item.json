@@ -1,0 +1,25 @@
+{
+  "_id": "67cefae870c03882bcff2a64",
+  "_collection": "678d25291eceb5d121099200",
+  "published": true,
+  "title": "Basic Fields",
+  "author": [""],
+  "desc": "This data mart holds various fields from Form 990 EZ based on the most requested fields by users",
+  "resource_url": "",
+  "slug": "basic-fields-67cefae870c03882bcff2a64",
+  "custom_fields": {
+    "category": [
+      "Missions and Programs",
+      "Grants and Funds",
+      "Individuals and Relationships",
+      "Geography"
+    ],
+    "part": ["1", "2", "3", "4", "5", "6"],
+    "recently_added": "Recently Added",
+    "size": 955.5,
+    "form_type": "990EZ",
+    "last_updated": "2025-03-07",
+    "dataset_documentation": "https://docs.google.com/spreadsheets/d/1UnOtFmbaVz0cWBkjhbclIGmQOZCtWFYy-GeNATJNI3c/edit?userstoinvite=sbuller%40salesforce.com&sharingaction=manageaccess&role=writer&gid=1673448678#gid=1673448678",
+    "download_url": "https://gt990datalake-analytics-and-datamarts.s3.us-east-1.amazonaws.com/EfileDataMarts/2025_03_06_All_Years_990EZStandardFields.csv"
+  }
+}

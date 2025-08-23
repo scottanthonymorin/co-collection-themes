@@ -1,6 +1,6 @@
 .wrapper {
   background: var(--theme-badge-bg);
-  border-radius: 3px;
+  border-radius: var(--theme-badge-border-radius);
   font-family: var(--font-family-heading);
   font-size: 12px;
   line-height: 1rem;

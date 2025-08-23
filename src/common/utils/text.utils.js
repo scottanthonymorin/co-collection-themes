@@ -1,3 +1,6 @@
+export const convertFileSize = (megabyte) =>
+  Number(megabyte) > 999 ? `${megabyte / 1000} GB` : `${megabyte} MB`;
+
 export const truncateText = (text, n, useWordBoundary = true) => {
   if (text.length <= n) {
     return text;
@@ -6,6 +9,11 @@ export const truncateText = (text, n, useWordBoundary = true) => {
   return (
     (useWordBoundary ? subString.slice(0, subString.lastIndexOf(' ')) : subString) + '...'
   );
+};
+
+export const arrayToString = (arr, separator = ', ') => {
+  if (!Array.isArray(arr)) return '';
+  return arr.join(separator);
 };
 
 // TODO: use response from BE rather than this sanitize to display values in FE.

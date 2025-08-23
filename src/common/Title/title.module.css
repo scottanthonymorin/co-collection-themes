@@ -1,7 +1,6 @@
 .title {
   background: none;
   font-weight: 500;
-  /* height: 52px; */
   line-height: 24px;
   margin: 0;
   overflow: hidden;
@@ -10,16 +9,16 @@
   width: 100%;
 }
 
-.title > a,
-.link {
-  color: var(--wc-title-color);
+.title > a {
+  border-bottom: 1px solid transparent;
+  color: var(--card-title-color);
   font-family: var(--font-family-heading);
-  font-size: var(--wc-title-font-size);
-  line-height: 0%;
+  font-size: var(--card-title-font-size);
+  line-height: 24px;
   cursor: pointer;
   text-decoration: none;
 }
 
-.link:hover {
+.title > a:hover {
   border-bottom: 1px solid var(--palette-primary, #000);
 }
