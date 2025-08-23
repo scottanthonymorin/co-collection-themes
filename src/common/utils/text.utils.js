@@ -16,6 +16,20 @@ export const arrayToString = (arr, separator = ', ') => {
   return arr.join(separator);
 };
 
+export const getDataYearsLabels = (data_years) => {
+  if (data_years.length < 1) return null;
+
+  const getFirstYear = (yrs) => yrs[0];
+  const getLastYear = (yrs) => yrs[yrs.length - 1];
+  const orderedYears = data_years.sort((a, b) => a - b);
+
+  if (orderedYears.length === 1) {
+    return `${getFirstYear(orderedYears)}`;
+  } else {
+    return `${getFirstYear(orderedYears)} - ${getLastYear(orderedYears)}`;
+  }
+};
+
 // TODO: use response from BE rather than this sanitize to display values in FE.
 export const sanitizeSearch = (search) => {
   return (

@@ -1,6 +1,7 @@
 .base {
   /* Default (fallback) design tokens as CSS variables */
   --font-family-heading: Montserrat, Arial, sans-serif;
+  /* --font-family-body: Georgia, serif; */
   --card-title-font-size: 20px;
   --card-title-color: rgb(48, 80, 131);
   --card-text-color-mid: #808080;

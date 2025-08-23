@@ -28,3 +28,6 @@
 .bottom {
   margin-top: 1em;
 }
+.fill {
+  flex: 1;
+}

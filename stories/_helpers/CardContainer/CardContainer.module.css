@@ -1,5 +1,11 @@
 .wrapper {
   display: flex;
-  width: fit-content;
+  flex-direction: column;
   margin: 0 auto;
+  min-width: 320px;
+  width: fit-content;
+}
+
+.wrapper > div {
+  max-width: 350px;
 }

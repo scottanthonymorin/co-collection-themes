@@ -1,0 +1,28 @@
+{
+  "_id": "688858bdab51d85485c5a318",
+  "_collection": "66885a877aada3ba4bdf25bb",
+  "published": true,
+  "title": "Year-Over-Year Change in Retention by Donor Lifecycle",
+  "author": [
+    "GivingTuesday Data Commons",
+    "Association of Fundraising Professionals (AFP)"
+  ],
+  "desc": "This infographic presents year-to-date retention rates for donors who were new or repeat donors in 2024, alongside the year-to-date recapture rate. New donor year-to-date retention is 7.1% (down 0.5 percentage points), while repeat donor retention is 25.4% (down 0.1 percentage points). The recapture rate that measures the percent of all lapsed donors (those who did not give in 2024 but had given in the past) is very low at 0.8%, and is down 0.1 percentage points compared to Q1 2024.",
+  "resource_url": "",
+  "slug": "year-over-year-change-in-retention-by-donor-lifecycle-688858bdab51d85485c5a318",
+  "custom_fields": {
+    "image_url": "https://cdn-co-ajah-ca.nyc3.cdn.digitaloceanspaces.com/_development/test_viz_library/FEP%202025%20Q1%20-%2015.png",
+    "report_url": "https://publications.fepreports.org/",
+    "slide_url": "",
+    "data_years": ["2025"],
+    "event_name": "",
+    "report": "FEP",
+    "report_edition": "FEP 2025 Q1",
+    "source": "2025 Q1 - Fundraising Effectiveness Project (FEP) Quarterly Fundraising Report",
+    "topic": ["Donor Behavior and Motivation", "Effective Fundraising"],
+    "viz_type": ["Metrics"],
+    "template_url": "",
+    "editable_content": ""
+  },
+  "page_views": 0
+}

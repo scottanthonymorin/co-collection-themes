@@ -1,0 +1,26 @@
+{
+  "_id": "6788fef4141dbd17de68356c",
+  "_collection": "677bcbf049ad2a720b5c6295",
+  "creation_date": "2025-01-16T12:43:32.849Z",
+  "published": true,
+  "title": "Donor Advised Funds Dataset",
+  "author": ["GivingTuesday Data Commons"],
+  "desc": "GivingTuesday Data Commons has partnered with the Donor Advised Fund Research Collaborative (DAFRC) to contribute to an increased public understanding of donor advised funds (DAFs). DAFRC, led and co-founded by Dr. Danielle Vance-McMullen and Dr. H. Daniel Heist, contributes to the public understanding of DAFs by collecting the most recent data on DAF accounts and analyzing their characteristics and giving behavior. Published in February 2024, the 2024 National Study on Donor Advised Funds is the most comprehensive research project on DAFs to date. To access the full report, FAQs, and an Executive Summary with key findings and more information about this project, visit the DAF Research Collaborative’s website at https://www.dafresearchcollaborative.org/national-study-dafs.\nNote: Interested users must submit a request and receive approval to access the data on the GivingTuesday Data Commons platform. ",
+  "resource_url": "",
+  "slug": "donor-advised-funds-dataset-6788fef4141dbd17de68356c",
+  "custom_fields": {
+    "short_desc": "The most comprehensive research on DAFs to date, analyzing their account characteristics and giving behavior",
+    "data_ownership": "GivingTuesday Datasets",
+    "region": ["United States and Canada"],
+    "dataset_type": "Transaction Data",
+    "access_level": "Registration Required",
+    "year_published": "2022",
+    "topics": ["Dimensions of Generosity,Donor Advised Funds"],
+    "gtdc_project": "<a href='https://data.givingtuesday.org/projects/?co-item=donor-advised-fund-daf-project-671264efedefc3ef03a07cef#our-work' _blank>Donor Advised Fund (DAF) Project</a>",
+    "website_url": "",
+    "dataset_documentation": "https://gtdata.notion.site/Donor-Advised-Funds-Dataset-789efd8f7d4b46b0b6d72630abe53686",
+    "dataset_image": "https://cdn-co-ajah-ca.nyc3.cdn.digitaloceanspaces.com/_development/gtrex/custom-theme/DAFResearchCollaborative-01.png",
+    "access_request": "https://forms.gle/GDEWskhKNSuuPyQB8"
+  },
+  "page_views": 2
+}
