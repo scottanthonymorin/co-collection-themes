@@ -14,7 +14,7 @@ const DatasetsCard = ({ CustomLink, href, item, to }) => {
       <CardContent align="right" position="top">
         <Badge>{dataset_type}</Badge>
       </CardContent>
-      <CardContent align="top" position="middle">
+      <CardContent position="middle">
         <div className={styles.imgWrapper}>
           {custom_fields.dataset_image ? (
             <img className={styles.img} src={custom_fields.dataset_image} />
@@ -27,7 +27,7 @@ const DatasetsCard = ({ CustomLink, href, item, to }) => {
           className={styles.title}
         />
       </CardContent>
-      <CardContent align="top" position="bottom">
+      <CardContent position="bottom">
         {short_desc ? (
           <p className={styles.shortDesc}>{truncateText(short_desc, 280)}</p>
         ) : null}

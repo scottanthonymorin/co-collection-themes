@@ -7,7 +7,7 @@ import { getDataYearsLabels, truncateText } from '../../../common/utils/text.uti
 import styles from './theme.module.css';
 
 const VizDatabaseCard = ({ CustomLink, href, item, to }) => {
-  const { title, desc, custom_fields = {} } = item;
+  const { title, custom_fields = {} } = item;
   const { data_years, image_url } = custom_fields;
 
   const yearsLabel = getDataYearsLabels(data_years);

@@ -1,0 +1,19 @@
+{
+  "_id": "68939323ab51d85485c5e4e6",
+  "_collection": "683c8b39a69afc1a2534bf77",
+  "published": true,
+  "title": "Awesome-LLM: a curated list of Large Language Model ",
+  "author": ["Hannibal046"],
+  "desc": "Awesome LLM is a curated list of papers about large language models, especially relating to ChatGPT. It also contains frameworks for LLM training, tools to deploy LLM, courses and tutorials about LLM and all publicly available LLM checkpoints and APIs.",
+  "resource_url": "https://github.com/Hannibal046/Awesome-LLM",
+  "slug": "awesome-llm-a-curated-list-of-large-language-model-68939323ab51d85485c5e4e6",
+  "custom_fields": {
+    "short_desc": "A curated list of LLM papers, tools, courses, and public model checkpoints.",
+    "item_type": "Solution",
+    "linked_items": "",
+    "has_linked_items": "Unlinked",
+    "most_viewed": "",
+    "topic_areas": ""
+  },
+  "page_views": 2
+}

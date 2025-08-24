@@ -18,7 +18,11 @@
   justify-content: space-between;
 }
 
+/* Position variants */
 .top {
+  background: var(--card-top-bg);
+  margin: calc(var(--card-padding) * -1);
+  padding: var(--card-padding);
   margin-bottom: 1em;
 }
 .middle {
@@ -28,6 +32,8 @@
 .bottom {
   margin-top: 1em;
 }
+
+/* Fill variant */
 .fill {
   flex: 1;
 }

@@ -24,7 +24,7 @@ const DatamartsCard = ({ CustomLink, href, item, to }) => {
         <Badge>{form_type}</Badge>
         <p className={styles.fileSize}>{convertFileSize(size)}</p>
       </CardContent>
-      <CardContent align="top" position="middle">
+      <CardContent position="middle">
         <Title
           {...{ CustomLink, href, to }}
           text={title}

@@ -1,6 +1,6 @@
 import styles from './CardContent.module.css';
 
-const CardContent = ({ align = 'between', fill, position, children }) => {
+const CardContent = ({ align = 'between', fill, position, className, children }) => {
   const alignKey = (align || '').toLowerCase();
   const positionKey = (position || '').toLowerCase();
 
@@ -9,7 +9,7 @@ const CardContent = ({ align = 'between', fill, position, children }) => {
   const fillClass = fill ? styles.fill : '';
   return (
     <div
-      className={`${styles.wrapper} ${variantAlign} ${variantPosition} ${fillClass}`.trim()}
+      className={`${styles.wrapper} ${variantAlign} ${variantPosition} ${fillClass} ${className}`.trim()}
     >
       {children}
     </div>

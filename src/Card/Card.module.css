@@ -7,11 +7,13 @@
   --card-text-color-mid: #808080;
   --card-border: 1px solid #e0e0e0;
   --card-border-radius: 4px;
+  --card-padding: 1rem;
   --color-primary: #0fb5c3;
   --color-secondary: rgb(48, 80, 131);
   --card-max-width: 320px;
   --card-min-height: 320px;
   --card-height: 100%;
+  --card-top-bg: none;
   --theme-badge-bg: #eaeaea;
   --theme-badge-font: var(--font-heading, sans-serif);
   --theme-badge-fg: #333;
@@ -30,7 +32,7 @@
   margin: 0.25rem 0;
   max-width: 100%;
   overflow: hidden;
-  padding: 1rem;
+  padding: var(--card-padding);
   position: relative;
   width: 100%;
 }
