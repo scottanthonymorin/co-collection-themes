@@ -1,26 +1,48 @@
 .themeRoot {
-  /* Default (fallback) design tokens as CSS variables */
-  /* --font-family-heading: Montserrat, Arial, sans-serif; */
-  /* --font-family-body: Georgia, serif; */
-  /* --card-title-font-size: 20px; */
-  /* --card-title-color: rgb(48, 80, 131); */
-  /* --card-text-color-mid: #808080; */
-  /* --card-border: 1px solid #e0e0e0; */
-  /* --card-border-radius: 4px; */
+  --font-family-heading: Montserrat, Arial, sans-serif;
+  --card-title-font-size: 17px;
+  --card-border: 1px solid #2c5d95;
+  --card-border-radius: 16px;
   --color-primary: #2c5d95;
-  /* --color-secondary: rgb(48, 80, 131); */
-  /* --card-max-width: 320px; */
-  /* --card-min-height: 320px; */
-  /* --card-height: 100%; */
-  /* --theme-badge-bg: #eaeaea; */
-  /* --theme-badge-font: var(--font-heading, sans-serif); */
-  /* --theme-badge-fg: #333; */
-  /* --theme-badge-border-radius: 3px; */
+  --card-max-width: 360px;
   --card-top-bg: #2c5d95;
   --icon-label-size: 18px;
 }
 
-.cardContent {
+.cardContentTop {
   color: #fff;
-  border: 1px solid red;
+  margin-bottom: 2rem;
+  padding: 1.5rem 1rem;
+}
+
+.cardContentTop p {
+  font-family: var(--font-family-heading) !important;
+}
+
+.authorContainer {
+  height: 40px;
+  width: 100%;
+}
+
+.title {
+  line-height: 20px;
+  margin: 0 0 0.75rem;
+}
+
+.author {
+  color: var(--card-text-color-mid);
+  font-size: 11px;
+  line-height: 1.3em;
+  margin: 0;
+  text-align: left;
+}
+
+.desc {
+  color: var(--card-text-color-mid);
+  font-size: 13px;
+  height: 52px;
+  line-height: 18px;
+  margin: auto 0;
+  text-align: left;
+  width: 100%;
 }

@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { CardContent, Title } from '../../../common';
 import { linkTargetValidator } from '../../../common/utils/prop-types.utils';
 import Card from '../../../Card';
-import { getDataYearsLabels, truncateText } from '../../../common/utils/text.utils';
+import { getDataYearsLabels } from '../../../common/utils/text.utils';
 
 import styles from './theme.module.css';
 
