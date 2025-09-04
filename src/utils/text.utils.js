@@ -17,7 +17,7 @@ export const arrayToString = (arr, separator = ', ') => {
 };
 
 export const getDataYearsLabels = (data_years) => {
-  if (data_years.length < 1) return null;
+  if (!data_years || !Array.isArray(data_years) || data_years.length < 1) return null;
 
   const getFirstYear = (yrs) => yrs[0];
   const getLastYear = (yrs) => yrs[yrs.length - 1];

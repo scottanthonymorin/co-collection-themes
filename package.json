@@ -1,7 +1,7 @@
 {
-  "name": "@ajah/co-collection-themes",
+  "name": "@giving-tuesday/co-collection-themes",
   "publishConfig": {
-    "registry": "https://api.bitbucket.org/2.0/packages/ajah/npm/"
+    "registry": "https://npm.pkg.github.com"
   },
   "version": "0.1.0",
   "author": "",
