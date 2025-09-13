@@ -1,17 +1,17 @@
-import { findIconByLabel } from './ICON_LIST';
-
+import { findIcon, findIconByLabel } from './ICON_LIST';
 import styles from './IconLabel.module.css';
 
-const IconLabel = ({ label, size = 'md' }) => {
-  const Icon = findIconByLabel(label);
+const IconLabel = ({ as = 'p', icon, label }) => {
+  const Icon = icon ? findIcon(icon) : findIconByLabel(label);
+  const Element = as;
 
   return (
-    <p className={styles.iconLabel}>
+    <Element className={styles.iconLabel}>
       <span className={styles.iconContainer}>
         {Icon && <Icon className={styles.icon} />}
       </span>
       <span>{label}</span>
-    </p>
+    </Element>
   );
 };
 

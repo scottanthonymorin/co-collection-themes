@@ -1,19 +1,21 @@
 import PropTypes from 'prop-types';
 import { CardContent, IconLabel, Title, ReadMore } from '../../../common';
+
 import { linkTargetValidator } from '../../../common/utils/prop-types.utils';
-import Card from '../../../Card';
 import { truncateText } from '../../../common/utils/text.utils';
+
+import Card from '../../../Card';
 
 import styles from './theme.module.css';
 
-const ProblemsSolutionsCard = ({ CustomLink, href, item, to }) => {
+const GtrexCard = ({ CustomLink, href, item, to }) => {
   const { author, title, custom_fields = {} } = item;
-  const { item_type, short_desc } = custom_fields;
+  const { resource_type } = custom_fields;
 
   return (
     <Card className={styles.themeRoot} data-theme="problems-solutions">
       <CardContent align="left" position="top" className={styles.cardContentTop}>
-        {item_type ? <IconLabel label={item_type} /> : null}
+        {resource_type ? <IconLabel label={resource_type} /> : null}
       </CardContent>
       <CardContent position="middle">
         <Title text={title} className={styles.title} />
@@ -22,27 +24,25 @@ const ProblemsSolutionsCard = ({ CustomLink, href, item, to }) => {
             <p className={styles.author}>by {truncateText(author.join(', '), 100)}</p>
           ) : null}
         </div>
-        {short_desc ? (
-          <div
-            className={styles.desc}
-            dangerouslySetInnerHTML={{
-              __html: truncateText(short_desc, 125),
-            }}
-          />
-        ) : null}
       </CardContent>
-      <CardContent align="right" position="bottom">
+      <CardContent align="between" position="bottom">
+        <p className={styles.yearPublished}>{custom_fields.year_published}</p>
         <ReadMore {...{ CustomLink, href, to }} />
       </CardContent>
     </Card>
   );
 };
 
-ProblemsSolutionsCard.propTypes = {
+GtrexCard.propTypes = {
   CustomLink: PropTypes.elementType,
   href: linkTargetValidator,
   to: linkTargetValidator,
-  item: PropTypes.shape({}).isRequired,
+  item: PropTypes.shape({
+    title: PropTypes.string,
+    desc: PropTypes.string,
+    author: PropTypes.arrayOf(PropTypes.string),
+    custom_fields: PropTypes.shape({}),
+  }).isRequired,
 };
 
-export default ProblemsSolutionsCard;
+export default GtrexCard;
