@@ -1,0 +1,48 @@
+/* Base design tokens shared across cards and item pages */
+
+.base {
+  /* Typography & colors */
+  --font-family-heading: Montserrat, Arial, sans-serif;
+
+  /* Brand palette */
+  --color-primary: #0fb5c3;
+  --color-secondary: rgb(48, 80, 131);
+
+  /* Theme badge tokens (used by multiple components) */
+  --theme-badge-border-radius: 3px;
+  --theme-badge-bg: #eaeaea;
+  --theme-badge-font: var(--font-heading, sans-serif);
+  --theme-badge-fg: #333;
+
+  /* Item page sizing tokens */
+  --page-max-width: 1100px;
+  --page-min-height: 400px;
+  --page-min-width: 285px;
+  --page-height: auto;
+  --page-top-bg: none;
+  --page-padding: 1rem;
+}
+
+.wrapper {
+  background: #fff;
+  display: block;
+  border: var(--card-border);
+  border-radius: var(--card-border-radius);
+  box-sizing: border-box;
+  height: var(--page-height);
+  min-height: var(--page-min-height);
+  min-width: var(--page-min-width);
+  margin: 0.5rem 0;
+  max-width: 100%;
+  overflow: hidden;
+  padding: var(--page-padding);
+  position: relative;
+  width: 100%;
+}
+
+@media (min-width: 960px) {
+  .wrapper {
+    margin: 0.5rem auto;
+    width: var(--page-max-width);
+  }
+}

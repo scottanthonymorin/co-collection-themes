@@ -1,0 +1,39 @@
+/* copied */
+.themeRoot {
+  /* Theme-level variable overrides (only differences from base) */
+  --card-border: 2px solid #2c5d95;
+  --card-border-radius: 12px;
+  --card-min-height: 400px;
+  --theme-badge-border-radius: 12px;
+  --color-primary: #0fb5c3;
+  --color-secondary: #305083;
+  --img-height: 125px;
+}
+
+.imgWrapper {
+  height: var(--img-height);
+  overflow: hidden;
+}
+
+.img {
+  height: var(--img-height);
+  object-fit: contain;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  text-align: center;
+}
+
+.shortDesc {
+  color: var(--card-text-color-mid);
+  font-size: 14px;
+  height: 52px;
+  line-height: 20px;
+  text-align: center;
+  padding-bottom: 2rem;
+}

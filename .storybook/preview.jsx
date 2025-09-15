@@ -1,5 +1,4 @@
 import React from 'react';
-import '../src/Card/Card.module.css';
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
@@ -19,7 +18,6 @@ export const decorators = [
         style: {
           padding: 24,
           background: '#f5f5f5',
-          minHeight: '100vh',
           fontFamily: 'sans-serif',
         },
       },

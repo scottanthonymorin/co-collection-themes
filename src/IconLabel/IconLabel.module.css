@@ -1,0 +1,16 @@
+.iconLabel {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.5rem;
+}
+
+.iconContainer svg {
+  margin: 0 0 2px;
+}

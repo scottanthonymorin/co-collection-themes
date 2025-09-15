@@ -9,12 +9,12 @@ const config = {
   },
   stories: ['../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
   addons: [
-    '@storybook/addon-essentials',
+    { name: '@storybook/addon-essentials', options: { docs: false } },
     '@storybook/addon-links',
     '@storybook/addon-interactions',
   ],
   docs: {
-    autodocs: true,
+    autodocs: false,
   },
   viteFinal: async (config) => {
     return mergeConfig(config, {

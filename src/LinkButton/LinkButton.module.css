@@ -1,0 +1,42 @@
+.linkButton {
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  margin: 3px 0 0;
+  padding: 14px;
+  text-align: center;
+  text-decoration: none;
+  width: fit-content !important;
+  background-color: var(--btn-bg);
+  color: var(--btn-text, #fff) !important;
+  transition: opacity 0.2s;
+}
+
+.linkButton.xsmall {
+  font-size: 12px;
+  padding: 4px 8px;
+}
+
+.linkButton.small {
+  font-size: 1rem;
+  padding: 6px 10px;
+}
+
+.linkButton.isCentered {
+  margin: 3px auto;
+}
+
+.linkButton.daro-primary-btn {
+  color: var(--white) !important;
+}
+
+.linkButton svg {
+  margin-right: 8px;
+}
+
+.linkButton:hover {
+  opacity: 0.89;
+}

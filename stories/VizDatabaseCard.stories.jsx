@@ -4,9 +4,9 @@ import CardContainer from './_helpers/CardContainer';
 import item from './_mocks/viz-database-item.json';
 
 export default {
-  title: 'Cards/VizDatabase',
+  title: 'Themes/Viz Database',
   component: VizDatabaseCard,
   decorators: [(Story) => <CardContainer>{Story()}</CardContainer>],
 };
 
-export const Default = () => <VizDatabaseCard item={item} />;
+export const Card = () => <VizDatabaseCard item={item} />;

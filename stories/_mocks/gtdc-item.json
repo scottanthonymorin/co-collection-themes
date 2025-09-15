@@ -1,0 +1,35 @@
+{
+  "_id": "66817e2fcfafd195386960df",
+  "_collection": "666c3686ecdf9c55e3dd7fc1",
+  "published": true,
+  "title": "Donor Advised Fund (DAF) Project",
+  "author": [""],
+  "desc": "GivingTuesday Data Commons has partnered with the Donor Advised Fund Research Collaborative (DAFRC) to contribute to an increased public understanding of donor advised funds (DAFs). The Donor Advised Fund Research Collaborative (DAFRC), led and co-founded by Dr. Danielle Vance-McMullen and Dr. H. Daniel Heist, contributes to the public understanding of donor-advised funds (DAFs) by collecting the most recent data on DAF accounts and analyzing their characteristics and giving behavior. Published in February 2024, the 2024 National Study on Donor Advised Funds is the most comprehensive research project on DAFs to date.\nTo access the full report, FAQs, and an Executive Summary with key findings and more information about this project, visit the DAF Research Collaborative’s website at https://www.dafresearchcollaborative.org/national-study-dafs.",
+  "resource_url": "",
+  "slug": "donor-advised-fund-daf-project-66817e2fcfafd195386960df",
+  "custom_fields": {
+    "short_description": "An effort to contribute to an increased public understanding of donor advised funds (DAFs). By collecting accurate data and producing empirically-based reports, the new 2023 National Study on Donor Advised Funds will be the most comprehensive research project on DAFs to date.",
+    "project_outputs": "Research analysis reports, aggregated datasets",
+    "data_contained": "The study contains deidentified transaction-level data from years 2014-2022, from at least 100,000 DAF accounts held by more than 100 DAF sponsoring organizations across the United States.",
+    "access_details": "This data set is restricted with specific criteria for access. You must: a) be a university researcher who has up-to-date CITI training; b) present a project proposal that falls within one of the three project areas (Patterns of Individual DAF Giving, Variation in DAF Giving, DAF Response to Shocks in the Giving Environment); and c) have IRB approval for your work. If you fulfill these requirements, you can submit your access request by clicking the button below and we will put you in contact with researchers leading this work.",
+    "access_request_url": "https://forms.gle/GDEWskhKNSuuPyQB8",
+    "update_schedule": "Yearly",
+    "designed_for": "Fundraising professionals, Academic researchers",
+    "use_cases": "This data can support research on public understanding of DAFs, policies around DAFs and how findings can influence them, organizational-level practices impacting DAF giving, and individual behaviors and motivations shaping DAF giving.",
+    "key_supporters": [
+      "Bill & Melinda Gates Foundation",
+      "Brigham Young University",
+      "DePaul University"
+    ],
+    "website_url": "",
+    "report_url": "https://www.dafresearchcollaborative.org/national-study-dafs",
+    "learn_more": "To find out more or to get involved, please email sila@givingtuesday.org."
+  },
+  "page_views": 2,
+  "meta": {
+    "count": {
+      "total": 9
+    }
+  },
+  "score": 1
+}

@@ -4,9 +4,9 @@ import CardContainer from './_helpers/CardContainer';
 import item from './_mocks/problems-solutions-item.json';
 
 export default {
-  title: 'Cards/Problems and Solutions',
+  title: 'Themes/Problems & Solutions',
   component: ProblemsSolutionsCard,
   decorators: [(Story) => <CardContainer>{Story()}</CardContainer>],
 };
 
-export const Default = () => <ProblemsSolutionsCard item={item} />;
+export const Card = () => <ProblemsSolutionsCard item={item} />;

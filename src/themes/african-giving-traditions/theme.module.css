@@ -1,0 +1,81 @@
+.themeRoot {
+  /* Theme-level variable overrides (only differences from base) */
+  --card-border-radius: 6px;
+  --card-min-height: 320px;
+}
+
+/* Item Page styles */
+.itemPageWrapper {
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: var(--page-max-width);
+}
+.mainContent {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 2rem 0 1rem;
+}
+.content {
+  flex: 1;
+}
+.sidebar {
+  padding: 2rem 0 0;
+  width: 360px;
+}
+.sidebarList {
+  list-style-type: none !important;
+  margin: 0;
+  padding: 0;
+}
+.sidebarItem {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0 0 1.5rem;
+  background: none; /* overwrite gl styling in prod */
+}
+.sidebarIcon {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  margin: 0 1.5rem 0 0;
+}
+.sidebarText {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  margin: 0;
+}
+
+@media (min-width: 960px) {
+  .mainContent {
+    flex-direction: row;
+    padding: 3rem 0 1rem;
+  }
+  .sidebar {
+    padding: 1rem 2rem 0 0;
+  }
+}
+
+/* Card styles */
+.desc {
+  color: var(--card-text-color-mid);
+  font-size: 13px;
+  height: 52px;
+  line-height: 18px;
+  margin: auto 0;
+  text-align: left;
+  width: 100%;
+}
+.authorContainer {
+  height: 40px;
+  width: 100%;
+}
+
+.author {
+  color: var(--card-text-color-mid);
+  font-size: 11px;
+  line-height: 1.3em;
+  margin: 0;
+  text-align: left;
+}
