@@ -4,11 +4,11 @@ import CardContainer from './_helpers/CardContainer';
 import item from './_mocks/datamarts-item.json';
 
 export default {
-  title: 'Cards/Datamarts',
+  title: 'Themes/Datamarts',
   component: DatamartsCard,
 };
 
-export const Default = () => (
+export const Card = () => (
   <CardContainer>
     <DatamartsCard item={item} />
     <DatamartsCard

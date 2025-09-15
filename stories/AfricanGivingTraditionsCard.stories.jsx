@@ -4,11 +4,11 @@ import item from './_mocks/african-giving-traditions-item.json';
 import CardContainer from './_helpers/CardContainer';
 
 export default {
-  title: 'Cards/African Giving Traditions',
+  title: 'Themes/African Giving Traditions',
   component: AfricanGivingTraditionsCard,
 };
 
-export const Default = () => (
+export const Card = () => (
   <CardContainer>
     <AfricanGivingTraditionsCard item={item} />
   </CardContainer>

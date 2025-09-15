@@ -4,9 +4,9 @@ import CardContainer from './_helpers/CardContainer';
 import item from './_mocks/gtrex-item.json';
 
 export default {
-  title: 'Cards/GtrexCard',
+  title: 'Themes/Gtrex',
   component: GtrexCard,
   decorators: [(Story) => <CardContainer>{Story()}</CardContainer>],
 };
 
-export const Default = () => <GtrexCard item={item} />;
+export const Card = () => <GtrexCard item={item} />;

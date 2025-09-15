@@ -4,11 +4,11 @@ import item from './_mocks/gtdc-item.json';
 import CardContainer from './_helpers/CardContainer';
 
 export default {
-  title: 'Cards/GTDC Card',
+  title: 'Themes/GTDC',
   component: GtdcCard,
 };
 
-export const Default = () => (
+export const Card = () => (
   <CardContainer>
     <GtdcCard item={item} />
   </CardContainer>
