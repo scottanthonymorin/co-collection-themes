@@ -3,6 +3,7 @@ node_modules/
 dist/
 coverage/
 build/
+storybook-static/
 *.log
 *.lock
 *.tmp
