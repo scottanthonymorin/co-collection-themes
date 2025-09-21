@@ -1,1 +1,0 @@
-import{j as r}from"./jsx-runtime-BjG_zV1W.js";const s="_wrapper_7lyg3_1",p={wrapper:s},a=({children:e})=>r.jsx("div",{className:p.wrapper,children:e});a.__docgenInfo={description:"",methods:[],displayName:"Badge"};export{a as B};

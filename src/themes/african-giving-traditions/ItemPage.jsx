@@ -30,8 +30,6 @@ const ItemPage = ({ itemData }) => {
   const { author, desc: description, resource_url, title, custom_fields = {} } = itemData;
   const { bibliography, location, gift_type, un_sdg } = custom_fields;
 
-  console.log('ItemPage', { itemData });
-
   const htmlDescription = useConvertToHtml(description);
   const htmlBibliography = useConvertToHtml(bibliography);
 

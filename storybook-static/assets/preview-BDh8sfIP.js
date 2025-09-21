@@ -1,1 +1,0 @@
-import{R as e}from"./index-CvLvJ4fi.js";import"./_commonjsHelpers-Cpj98o6Y.js";const r={actions:{argTypesRegex:"^on[A-Z].*"},controls:{matchers:{color:/(background|color)$/i,date:/Date$/}}},c=[t=>e.createElement("div",{style:{padding:24,background:"#f5f5f5",minHeight:"100vh",fontFamily:"sans-serif"}},e.createElement(t))];export{c as decorators,r as parameters};
