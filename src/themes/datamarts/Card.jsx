@@ -35,7 +35,7 @@ const Card = ({ CustomLink, href, item, to }) => {
         ) : null}
         {desc ? <p className={styles.desc}>{truncateText(desc, 110)}</p> : null}
       </CardContent>
-      <CardContent align="right" position="bottom">
+      <CardContent align="end" position="bottom">
         <ReadMore {...{ CustomLink, href, label: 'Learn More', to }} />
       </CardContent>
       {recently_added ? (

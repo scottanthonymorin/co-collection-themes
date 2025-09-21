@@ -13,7 +13,7 @@ const Card = ({ CustomLink, href, item, to }) => {
   const { dataset_type, short_desc } = custom_fields;
   return (
     <BaseCard className={styles.themeRoot}>
-      <CardContent align="right" position="top">
+      <CardContent align="end" position="top">
         <Badge>{dataset_type}</Badge>
       </CardContent>
       <CardContent position="middle">

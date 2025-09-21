@@ -16,10 +16,10 @@ const Card = ({ CustomLink, href, item, to }) => {
 
   return (
     <BaseCard className={styles.themeRoot} data-theme="problems-solutions">
-      <CardContent align="left" position="top" className={styles.cardContentTop}>
+      <CardContent align="start" position="top" className={styles.cardContentTop}>
         {resource_type ? <IconLabel label={resource_type} /> : null}
       </CardContent>
-      <CardContent position="middle">
+      <CardContent align="start" position="middle">
         <Title text={title} className={styles.title} />
         <div className={styles.authorContainer}>
           {author.length > 0 ? (

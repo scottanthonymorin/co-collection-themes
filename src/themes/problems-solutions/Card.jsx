@@ -15,7 +15,7 @@ const Card = ({ CustomLink, href, item, to }) => {
 
   return (
     <BaseCard className={styles.themeRoot} data-theme="problems-solutions">
-      <CardContent align="left" position="top" className={styles.cardContentTop}>
+      <CardContent align="start" position="top" className={styles.cardContentTop}>
         {item_type ? <IconLabel label={item_type} /> : null}
       </CardContent>
       <CardContent position="middle">
@@ -34,7 +34,7 @@ const Card = ({ CustomLink, href, item, to }) => {
           />
         ) : null}
       </CardContent>
-      <CardContent align="right" position="bottom">
+      <CardContent align="end" position="bottom">
         <ReadMore {...{ CustomLink, href, to }} />
       </CardContent>
     </BaseCard>
