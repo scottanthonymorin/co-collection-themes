@@ -5,7 +5,6 @@ coverage/
 build/
 storybook-static/
 *.log
-*.lock
 *.tmp
 *.cache
 *.env
