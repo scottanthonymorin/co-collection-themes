@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "",
   "license": "ISC",
   "description": "Reusable React component + theme library for the co-embed app.",
@@ -25,8 +25,8 @@
   "peerDependencies": {
     "react": ">=18 <20",
     "react-dom": ">=18 <20",
-    "react-router-dom": ">=6.0.0",
-    "react-icons": ">=4.0.0"
+    "react-icons": ">=4.0.0",
+    "react-router-dom": ">=6.0.0"
   },
   "scripts": {
     "clean": "rm -rf dist",
@@ -48,6 +48,7 @@
     "@babel/preset-react": "^7.25.7",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^16.0.1",
     "@storybook/addon-essentials": "^8.2.0",
     "@storybook/addon-interactions": "^8.2.0",
