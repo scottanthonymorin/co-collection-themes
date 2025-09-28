@@ -4,13 +4,13 @@
 }
 
 /* Alignment variants */
-.left {
+.start {
   justify-content: flex-start;
 }
 .center {
   justify-content: center;
 }
-.right {
+.end {
   justify-content: flex-end;
 }
 .between {

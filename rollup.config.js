@@ -1,6 +1,7 @@
 import babel from '@rollup/plugin-babel';
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
+import json from '@rollup/plugin-json';
 import postcss from 'rollup-plugin-postcss';
 
 export default {
@@ -12,7 +13,9 @@ export default {
   plugins: [
     resolve({
       extensions: ['.mjs', '.js', '.jsx', '.json'],
+      preferBuiltins: true,
     }),
+    json(),
     postcss({
       modules: true,
       extract: false,

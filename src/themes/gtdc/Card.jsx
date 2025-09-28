@@ -34,7 +34,7 @@ const Card = ({ CustomLink, href, item, to }) => {
           <IconLabel as="span" icon="link" label="Read the latest report" />
         </LinkButton>
       </CardContent>
-      <CardContent align="right" position="bottom">
+      <CardContent align="end" position="bottom">
         <ReadMore {...{ CustomLink, href, label: 'Learn More', to }} />
       </CardContent>
     </BaseCard>
