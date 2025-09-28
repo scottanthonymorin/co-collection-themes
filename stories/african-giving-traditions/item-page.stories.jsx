@@ -10,6 +10,6 @@ export default {
 
 export const ItemPage = () => (
   <ItemPageContainer>
-    <AfricanGivingTraditionsItemPage item={item} />
+    <AfricanGivingTraditionsItemPage itemData={item} />
   </ItemPageContainer>
 );
