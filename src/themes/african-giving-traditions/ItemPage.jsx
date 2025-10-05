@@ -5,11 +5,12 @@ import { FaLeaf } from 'react-icons/fa';
 import { TbWorldPin } from 'react-icons/tb';
 
 import BaseItemPage from '../../BaseItemPage';
-import useConvertToHtml from '../../hooks/use-convert-to-html';
-
-import styles from './theme.module.css';
 import LinkButton from '../../LinkButton';
 import IconLabel from '../../IconLabel';
+import useConvertToHtml from '../../hooks/use-convert-to-html';
+
+import theme from './theme.module.css';
+import styles from './ItemPage.module.css';
 
 const SidebarItem = ({ icon, text }) => {
   if (!text) return null;
@@ -35,7 +36,7 @@ const ItemPage = ({ itemData }) => {
 
   return (
     <BaseItemPage
-      className={`${styles.themeRoot} ${styles.itemPageWrapper}`}
+      className={`${theme.root} ${styles.itemPageWrapper}`}
       data-theme="african-giving-traditions"
     >
       <div className={styles.mainContent}>

@@ -1,7 +1,7 @@
-import { themeEntries } from '../themes';
+import { cardThemeEntries } from '../themes/cards';
 
 // Build the theme map automatically from entries list.
-const THEME_CARD_MAP = themeEntries.reduce((acc, entry) => {
+const THEME_CARD_MAP = cardThemeEntries.reduce((acc, entry) => {
   const { themeName, CardComponent } = entry;
 
   if (!CardComponent) return acc;

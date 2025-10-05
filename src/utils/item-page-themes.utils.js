@@ -1,7 +1,7 @@
-import { themeEntries } from '../themes';
+import { itemPageThemeEntries } from '../themes/item-pages';
 
 // Build the item page map automatically from entries list.
-const THEME_ITEM_PAGE_MAP = themeEntries.reduce((acc, entry) => {
+const THEME_ITEM_PAGE_MAP = itemPageThemeEntries.reduce((acc, entry) => {
   const { themeName, ItemPageComponent } = entry;
 
   if (!ItemPageComponent) return acc;
