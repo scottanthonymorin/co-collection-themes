@@ -2,16 +2,11 @@ import React from 'react';
 import { Widget } from '../../src';
 import WidgetContainer from '../_decorators/WidgetContainer';
 
+import item from '../_mocks/gtrex-item-with-widget.json';
+
 const props = {
-  itemsIsArray: true,
-  widgetStaticItems: [
-    '68cd4f6f5e86d3b99a707a23',
-    '68c1de045e86d3b99a705fac',
-    '68c1da165e86d3b99a705d8f',
-    '68c1da165e86d3b99a705d6e',
-    '68c1da155e86d3b99a705d4b',
-  ],
-  widgetTheme: 'gtrex',
+  items: item.custom_fields['widget_viz-library_items'],
+  widgetTheme: 'viz-database-beta',
 };
 
 export default {
