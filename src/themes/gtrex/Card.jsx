@@ -8,14 +8,15 @@ import { truncateText } from '../../utils/text.utils';
 
 import BaseCard from '../../BaseCard';
 
-import styles from './theme.module.css';
+import theme from './theme.module.css';
+import styles from './Card.module.css';
 
 const Card = ({ CustomLink, href, item, to }) => {
   const { author, title, custom_fields = {} } = item;
   const { resource_type } = custom_fields;
 
   return (
-    <BaseCard className={styles.themeRoot} data-theme="problems-solutions">
+    <BaseCard className={theme.root} data-theme="gtrex">
       <CardContent align="start" position="top" className={styles.cardContentTop}>
         {resource_type ? <IconLabel label={resource_type} /> : null}
       </CardContent>

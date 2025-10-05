@@ -5,3 +5,9 @@ Reusable React `Card` component library for the co-embed app (and related projec
 ## Notes
 
 - For this repository, use `npm` and not `yarn` to keep things simple.
+
+```bash
+npm version patch
+# or
+npm version minor
+```

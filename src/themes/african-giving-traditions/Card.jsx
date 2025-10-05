@@ -7,14 +7,15 @@ import BaseCard from '../../BaseCard';
 import { truncateText } from '../../utils/text.utils';
 import { linkTargetValidator } from '../../utils/prop-types.utils';
 
-import styles from './theme.module.css';
+import theme from './theme.module.css';
+import styles from './Card.module.css';
 
 const Card = ({ CustomLink, href, item, to }) => {
   const { author, desc, title } = item || {};
   const { location } = item?.custom_fields || {};
 
   return (
-    <BaseCard className={styles.themeRoot} data-theme="african-giving-traditions">
+    <BaseCard className={theme.root} data-theme="african-giving-traditions">
       <CardContent align="end" position="top">
         {location && <Badge>{location}</Badge>}
       </CardContent>

@@ -8,10 +8,13 @@ import { MdOutlineCollectionsBookmark } from 'react-icons/md';
 import BaseItemPage from '../../BaseItemPage';
 import useConvertToHtml from '../../hooks/use-convert-to-html';
 
-import styles from './theme.module.css';
+import theme from './theme.module.css';
+import styles from './ItemPage.module.css';
+
 import LinkButton from '../../LinkButton';
 import IconLabel from '../../IconLabel';
-import Widget from '../../Widget';
+import ItemPageWidget from '../../Widget/ItemPageWidget';
+import { Card as VizDatabaseCard } from '../viz-database';
 
 const SidebarItem = ({ icon, text }) => {
   if (!text) return null;
@@ -48,7 +51,7 @@ const ItemPage = ({ itemData }) => {
 
   return (
     <BaseItemPage
-      className={`${styles.themeRoot} ${styles.itemPageWrapper}`}
+      className={`${theme.root} ${styles.itemPageWrapper}`}
       data-theme="gtrex"
     >
       <div className={styles.mainContent}>
@@ -120,10 +123,10 @@ const ItemPage = ({ itemData }) => {
       </div>
 
       {widgetVizLibraryItems?.length > 0 ? (
-        <Widget
+        <ItemPageWidget
           isItemPageWidget
           items={widgetVizLibraryItems}
-          widgetTheme="viz-database-beta"
+          CardComponent={VizDatabaseCard}
           embedUrl="https://www.givingtuesday.org/visualizations-library"
         />
       ) : null}

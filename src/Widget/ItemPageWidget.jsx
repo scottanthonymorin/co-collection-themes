@@ -1,17 +1,21 @@
 import React from 'react';
-import { getThemeCard } from '../utils/card-themes.utils';
 
 import styles from './Widget.module.css';
 
-const Widget = ({ items, widgetTheme, maxCardsPerRow = 5 }) => {
-  const CardComponent = getThemeCard(widgetTheme);
+const ItemPageWidget = ({ items, CardComponent, maxCardsPerRow = 5, ...props }) => {
   const itemCount = items?.length || 0;
+
+  if (!CardComponent) {
+    console.warn('[ItemPageWidget] No CardComponent provided');
+    return null;
+  }
 
   return (
     <div
       className={`daro-widget ${styles.base} ${
         styles[`count${Math.min(itemCount, maxCardsPerRow)}`]
       } ${styles.widgetWrapper}`}
+      {...props}
     >
       {items?.map((item) => (
         <CardComponent key={item._id} item={item} />
@@ -20,4 +24,4 @@ const Widget = ({ items, widgetTheme, maxCardsPerRow = 5 }) => {
   );
 };
 
-export default Widget;
+export default ItemPageWidget;
