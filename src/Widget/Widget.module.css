@@ -38,6 +38,13 @@
   padding: var(--widget-padding);
 }
 
+/* Card overrides for widget specifically */
+.widgetWrapper > div {
+  height: var(--card-height);
+  max-width: var(--card-max-width);
+  min-height: var(--card-min-height);
+}
+
 @media (min-width: 800px) {
   .widgetWrapper {
     grid-template-columns: repeat(var(--item-count), 1fr);
