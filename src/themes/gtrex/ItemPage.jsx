@@ -41,13 +41,10 @@ const ItemPage = ({ itemData }) => {
     topics,
     year_published,
     viz_url,
-    'widget_viz-library': widgetVizLibrary,
+    'widget_viz-library_items': widgetVizLibraryItems,
   } = custom_fields;
 
   const htmlDescription = useConvertToHtml(description);
-  const parsedWidgetItems = Array.isArray(widgetVizLibrary)
-    ? widgetVizLibrary
-    : JSON.parse(widgetVizLibrary || '[]');
 
   return (
     <BaseItemPage
@@ -122,11 +119,11 @@ const ItemPage = ({ itemData }) => {
         </LinkButton>
       </div>
 
-      {parsedWidgetItems?.length > 0 ? (
+      {widgetVizLibraryItems?.length > 0 ? (
         <Widget
-          itemsIsArray
+          isItemPageWidget
+          items={widgetVizLibraryItems}
           widgetTheme="viz-database-beta"
-          widgetStaticItems={parsedWidgetItems}
           embedUrl="https://www.givingtuesday.org/visualizations-library"
         />
       ) : null}

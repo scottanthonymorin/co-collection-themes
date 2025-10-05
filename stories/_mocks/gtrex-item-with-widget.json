@@ -40,9 +40,131 @@
       "68962983ab51d85485c5fa5b",
       "68962983ab51d85485c5fa3b",
       "68962983ab51d85485c5f9fb"
+    ],
+    "widget_viz-library_items": [
+      {
+        "_id": "68962983ab51d85485c5f9fb",
+        "_collection": "66885a877aada3ba4bdf25bb",
+        "published": true,
+        "title": "Overview of Generosity by Type of Gift: Money, Items, and Volunteering (Kenya)",
+        "author": ["GivingTuesday Data Commons"],
+        "desc": "This Venn diagram reveals Kenya's remarkable giving behavior, where 90% of respondents participate in all three activities: giving money, donating items, and volunteering. This represents the highest overlap among all countries studied. Single-activity engagement is extremely minimal, with only 3% engaging in money and item donations combined, and tiny percentages for other combinations. Kenya demonstrates unprecedented universal engagement across all forms of charitable giving and community support.",
+        "resource_url": "",
+        "slug": "overview-of-generosity-by-type-of-gift-money-items-and-volunteering-kenya-68962983ab51d85485c5f9fb",
+        "custom_fields": {
+          "image_url": "https://cdn-co-ajah-ca.nyc3.cdn.digitaloceanspaces.com/_development/test_viz_library/Lookback%202024%20-%2020.png",
+          "report_url": "https://stateofgenerosity.givingtuesday.org/2024",
+          "slide_url": "",
+          "data_years": ["2024"],
+          "event_name": "",
+          "report": "Lookback",
+          "report_edition": "Lookback 2024",
+          "source": "The State of Generosity in 2024–2025: Generosity as Resilience",
+          "topic": [
+            "Dimensions of Generosity",
+            "Nonmonetary Giving",
+            "Donor Behavior and Motivation"
+          ],
+          "viz_type": ["Venn diagrams"],
+          "template_url": "",
+          "editable_content": ""
+        },
+        "page_views": 0,
+        "creation_date": "2025-08-08T16:44:51.716Z"
+      },
+      {
+        "_id": "68962983ab51d85485c5fa3b",
+        "_collection": "66885a877aada3ba4bdf25bb",
+        "published": true,
+        "title": "Overview of Generosity by Type of Gift: Money, Items, and Volunteering (Mexico)",
+        "author": ["GivingTuesday Data Commons"],
+        "desc": "This Venn diagram shows Mexico's giving patterns, where 37% of respondents engage in all three charitable activities: giving money, donating items, and volunteering. Mexico displays 20% participation in item giving only, with 18% combining money and item donations. The country shows balanced engagement across different giving methods, with 15% participating in both item donations and volunteering. Mexico demonstrates diversified charitable engagement with moderate overlap between different giving approaches.",
+        "resource_url": "",
+        "slug": "overview-of-generosity-by-type-of-gift-money-items-and-volunteering-mexico-68962983ab51d85485c5fa3b",
+        "custom_fields": {
+          "image_url": "https://cdn-co-ajah-ca.nyc3.cdn.digitaloceanspaces.com/_development/test_viz_library/Lookback%202024%20-%2021.png",
+          "report_url": "https://stateofgenerosity.givingtuesday.org/2024",
+          "slide_url": "",
+          "data_years": ["2024"],
+          "event_name": "",
+          "report": "Lookback",
+          "report_edition": "Lookback 2024",
+          "source": "The State of Generosity in 2024–2025: Generosity as Resilience",
+          "topic": [
+            "Dimensions of Generosity",
+            "Nonmonetary Giving",
+            "Donor Behavior and Motivation"
+          ],
+          "viz_type": ["Venn diagrams"],
+          "template_url": "",
+          "editable_content": ""
+        },
+        "page_views": 0,
+        "creation_date": "2025-08-08T16:44:51.846Z"
+      },
+      {
+        "_id": "68962983ab51d85485c5fa5b",
+        "_collection": "66885a877aada3ba4bdf25bb",
+        "published": true,
+        "title": "Overview of Generosity by Type of Gift: Money, Items, and Volunteering (United Kingdom)",
+        "author": ["GivingTuesday Data Commons"],
+        "desc": "This Venn diagram illustrates the United Kingdom's giving behavior, where 39% of respondents participate in all three charitable activities: giving money, donating items, and volunteering. The UK shows 27% engaging in combined money and item giving, representing strong financial charitable engagement. Additionally, 14% focus exclusively on item donations, while 9% concentrate only on monetary giving. The UK demonstrates substantial integration between monetary and material charitable contributions with significant comprehensive engagement.",
+        "resource_url": "",
+        "slug": "overview-of-generosity-by-type-of-gift-money-items-and-volunteering-united-kingdom-68962983ab51d85485c5fa5b",
+        "custom_fields": {
+          "image_url": "https://cdn-co-ajah-ca.nyc3.cdn.digitaloceanspaces.com/_development/test_viz_library/Lookback%202024%20-%2022.png",
+          "report_url": "https://stateofgenerosity.givingtuesday.org/2024",
+          "slide_url": "",
+          "data_years": ["2024"],
+          "event_name": "",
+          "report": "Lookback",
+          "report_edition": "Lookback 2024",
+          "source": "The State of Generosity in 2024–2025: Generosity as Resilience",
+          "topic": [
+            "Dimensions of Generosity",
+            "Donor Behavior and Motivation",
+            "Nonmonetary Giving"
+          ],
+          "viz_type": ["Venn diagrams"],
+          "template_url": "",
+          "editable_content": ""
+        },
+        "page_views": 0,
+        "creation_date": "2025-08-08T16:44:51.931Z"
+      },
+      {
+        "_id": "68962984ab51d85485c5fadb",
+        "_collection": "66885a877aada3ba4bdf25bb",
+        "published": true,
+        "title": "Overview of Generosity by Type of Gift: Money, Items, and Volunteering (United States)",
+        "author": ["GivingTuesday Data Commons"],
+        "desc": "This Venn diagram displays US giving patterns, where 39% of respondents engage in all three charitable activities: giving money, donating items, and volunteering. The US shows 23% participating in combined money and item giving, with 17% focusing exclusively on item donations. Additionally, 9% engage in both item giving and volunteering, while 6% concentrate solely on monetary donations. The US demonstrates balanced engagement across multiple charitable pathways with strong overlap between different giving methods.",
+        "resource_url": "",
+        "slug": "overview-of-generosity-by-type-of-gift-money-items-and-volunteering-united-states-68962984ab51d85485c5fadb",
+        "custom_fields": {
+          "image_url": "https://cdn-co-ajah-ca.nyc3.cdn.digitaloceanspaces.com/_development/test_viz_library/Lookback%202024%20-%2023.png",
+          "report_url": "https://stateofgenerosity.givingtuesday.org/2024",
+          "slide_url": "",
+          "data_years": ["2024"],
+          "event_name": "",
+          "report": "Lookback",
+          "report_edition": "Lookback 2024",
+          "source": "The State of Generosity in 2024–2025: Generosity as Resilience",
+          "topic": [
+            "Dimensions of Generosity",
+            "Nonmonetary Giving",
+            "Donor Behavior and Motivation"
+          ],
+          "viz_type": ["Venn diagrams"],
+          "template_url": "",
+          "editable_content": ""
+        },
+        "page_views": 0,
+        "creation_date": "2025-08-08T16:44:52.204Z"
+      }
     ]
   },
-  "page_views": 1,
+  "page_views": 3,
   "creation_date": "2025-09-10T20:56:32.934Z",
   "mongoEnv": "staging"
 }
