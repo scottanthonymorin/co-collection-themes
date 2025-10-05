@@ -2,4 +2,6 @@
 
 Reusable React `Card` component library for the co-embed app (and related projects).
 
-...to be completed in a future PR...
+## Notes
+
+- For this repository, use `npm` and not `yarn` to keep things simple.
