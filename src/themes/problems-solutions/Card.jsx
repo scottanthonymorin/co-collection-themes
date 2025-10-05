@@ -19,7 +19,7 @@ const Card = ({ CustomLink, href, item, to }) => {
         {item_type ? <IconLabel label={item_type} /> : null}
       </CardContent>
       <CardContent position="middle">
-        <Title text={title} className={styles.title} />
+        <Title {...{ CustomLink, href, to }} text={title} className={styles.title} />
         <div className={styles.authorContainer}>
           {author.length > 0 ? (
             <p className={styles.author}>by {truncateText(author.join(', '), 100)}</p>
