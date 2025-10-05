@@ -8,15 +8,16 @@ import { linkTargetValidator } from '../../utils/prop-types.utils';
 import BaseCard from '../../BaseCard';
 import { arrayToString, convertFileSize, truncateText } from '../../utils/text.utils';
 
-import styles from './theme.module.css';
+import theme from './theme.module.css';
+import styles from './Card.module.css';
 
 const Card = ({ CustomLink, href, item, to }) => {
   const { title, desc, custom_fields = {} } = item;
-  const { form_type, part, recently_added, size } = custom_fields;
+  const { form_type, recently_added, size } = custom_fields;
 
   return (
     <BaseCard
-      className={`${styles.themeRoot} ${recently_added ? styles.recentlyAddedBorder : ''}   `}
+      className={`${theme.root} ${recently_added ? theme.recentlyAddedBorder : ''}   `}
       data-theme="datamarts"
     >
       <CardContent position="top">

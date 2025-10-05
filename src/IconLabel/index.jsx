@@ -1,4 +1,4 @@
-import { findIcon, findIconByLabel } from './ICON_LIST';
+import { findIcon, findIconByLabel } from '../settings/ICON_LIST';
 import styles from './IconLabel.module.css';
 
 const IconLabel = ({ as = 'p', icon, label }) => {
