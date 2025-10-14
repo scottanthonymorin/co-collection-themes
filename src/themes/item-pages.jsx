@@ -32,7 +32,7 @@ export const itemPageThemeEntries = [
     ItemPageComponent: ProblemsSolutionsItemPage,
   },
   {
-    themeName: ['viz-database'],
+    themeName: ['viz-database', 'viz-database-beta'],
     ItemPageComponent: VizDatabaseItemPage,
   },
 ];
