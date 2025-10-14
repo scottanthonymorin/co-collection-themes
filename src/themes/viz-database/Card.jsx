@@ -5,7 +5,8 @@ import { linkTargetValidator } from '../../utils/prop-types.utils';
 import BaseCard from '../../BaseCard';
 import { getDataYearsLabels } from '../../utils/text.utils';
 
-import styles from './theme.module.css';
+import theme from './theme.module.css';
+import styles from './Card.module.css';
 
 const Card = ({ CustomLink, href, item, to }) => {
   const { title, custom_fields = {} } = item;
@@ -14,7 +15,7 @@ const Card = ({ CustomLink, href, item, to }) => {
   const yearsLabel = getDataYearsLabels(data_years);
 
   return (
-    <BaseCard className={`${styles.themeRoot} `} data-theme="viz-database">
+    <BaseCard className={`${theme.root} `} data-theme="viz-database">
       <CardContent position="top">
         {yearsLabel ? <p className={styles.years}>{yearsLabel}</p> : null}
       </CardContent>

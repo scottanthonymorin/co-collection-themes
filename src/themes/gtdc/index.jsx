@@ -1,3 +1,4 @@
 import Card from './Card';
+import ItemPage from './ItemPage';
 
-export { Card };
+export { Card, ItemPage };
