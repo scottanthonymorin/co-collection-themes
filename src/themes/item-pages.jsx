@@ -24,7 +24,7 @@ export const itemPageThemeEntries = [
     ItemPageComponent: DatasetsItemPage,
   },
   {
-    themeName: ['gtdc'],
+    themeName: ['gtdc', 'gtdc-projects'],
     ItemPageComponent: GtdcItemPage,
   },
   {
