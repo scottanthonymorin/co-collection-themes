@@ -1,19 +1,47 @@
 {
-  "_id": "68939323ab51d85485c5e4e6",
+  "status": 200,
+  "_id": "683c8c89930b6eb7b11e1de2",
   "_collection": "683c8b39a69afc1a2534bf77",
   "published": true,
-  "title": "Awesome-LLM: a curated list of Large Language Model ",
-  "author": ["Hannibal046"],
-  "desc": "Awesome LLM is a curated list of papers about large language models, especially relating to ChatGPT. It also contains frameworks for LLM training, tools to deploy LLM, courses and tutorials about LLM and all publicly available LLM checkpoints and APIs.",
-  "resource_url": "https://github.com/Hannibal046/Awesome-LLM",
-  "slug": "awesome-llm-a-curated-list-of-large-language-model-68939323ab51d85485c5e4e6",
+  "title": "Barriers to Communicating Impact",
+  "author": [""],
+  "desc": "A challenge in the nonprofit/philanthropic sector is the difficulty in providing immediate and tangible insights into how donations are making an impact. AI could be the key to developing tools that offer real-time transparency, ultimately enhancing donor trust and contributions. For instance, can AI assist with common comms or events management tasks, for non-profits who are not able to hire full-time staff in those positions? And, rather than naively generating text with generative AI, can non-profits develop workflows for making more compelling and accurate communications?\n",
+  "resource_url": "",
+  "slug": "barriers-to-communicating-impact-683c8c89930b6eb7b11e1de2",
   "custom_fields": {
-    "short_desc": "A curated list of LLM papers, tools, courses, and public model checkpoints.",
-    "item_type": "Solution",
-    "linked_items": "",
-    "has_linked_items": "Unlinked",
+    "short_desc": "Can AI be used to provide real-time insights into the impact of donations to improve transparency and build donor trust?",
+    "topic_areas": [
+      "Communications, Advocacy and Policy Change",
+      "Governance and Leadership"
+    ],
+    "item_type": "Problem",
+    "has_linked_items": "Linked",
     "most_viewed": "",
-    "topic_areas": ""
+    "linked_items": ["683c8c8b930b6eb7b11e202f"],
+    "linked_items_DATA": [
+      {
+        "_id": "683c8c8b930b6eb7b11e202f",
+        "_collection": "683c8b39a69afc1a2534bf77",
+        "published": true,
+        "title": "Wize: The AI Assistant Built Specifically for Fundraising Teams",
+        "author": ["Louis Diez"],
+        "desc": "Create better fundraising content faster, manage tasks intelligently, and streamline collaboration - all in one place.",
+        "resource_url": "https://app.wizenow.com/",
+        "slug": "wize-the-ai-assistant-built-specifically-for-fundraising-teams-683c8c8b930b6eb7b11e202f",
+        "custom_fields": {
+          "short_desc": "An AI platform for nonprofit fundraising, task management, and collaboration",
+          "topic_areas": "",
+          "item_type": "Solution",
+          "has_linked_items": "Linked",
+          "most_viewed": "Most Viewed",
+          "linked_items": ["683c8c89930b6eb7b11e1de2"]
+        },
+        "page_views": 21,
+        "creation_date": "2025-06-01T17:23:23.485Z"
+      }
+    ]
   },
-  "page_views": 2
+  "page_views": 7,
+  "creation_date": "2025-06-01T17:23:21.208Z",
+  "mongoEnv": "staging"
 }

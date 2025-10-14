@@ -6,13 +6,14 @@ import { linkTargetValidator } from '../../utils/prop-types.utils';
 import BaseCard from '../../BaseCard';
 import { truncateText } from '../../utils/text.utils';
 
-import styles from './theme.module.css';
+import theme from './theme.module.css';
+import styles from './Card.module.css';
 
 const Card = ({ CustomLink, href, item, to }) => {
   const { title, custom_fields = {} } = item;
   const { dataset_type, short_desc } = custom_fields;
   return (
-    <BaseCard className={styles.themeRoot}>
+    <BaseCard className={theme.root}>
       <CardContent align="end" position="top">
         <Badge>{dataset_type}</Badge>
       </CardContent>

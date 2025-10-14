@@ -21,7 +21,7 @@ export const Action = ({ icon, label, url }) => {
   ) : null;
 };
 
-const Datapoint = ({ label, data }) =>
+export const Datapoint = ({ label, data }) =>
   data ? (
     <div className={styles.datapoint}>
       <h3 className={styles.datapointLabel}>{label}</h3>
@@ -32,7 +32,7 @@ const Datapoint = ({ label, data }) =>
 const ItemPage = ({ itemData }) => {
   if (!itemData?._id) return null;
 
-  const { author, desc: description, resource_url, title, custom_fields = {} } = itemData;
+  const { desc: description, title, custom_fields = {} } = itemData;
   const {
     category,
     dataset_documentation,

@@ -7,14 +7,15 @@ import { linkTargetValidator } from '../../utils/prop-types.utils';
 import BaseCard from '../../BaseCard';
 import { truncateText } from '../../utils/text.utils';
 
-import styles from './theme.module.css';
+import theme from './theme.module.css';
+import styles from './Card.module.css';
 
 const Card = ({ CustomLink, href, item, to }) => {
   const { author, title, custom_fields = {} } = item;
   const { item_type, short_desc } = custom_fields;
 
   return (
-    <BaseCard className={styles.themeRoot} data-theme="problems-solutions">
+    <BaseCard className={theme.root} data-theme="problems-solutions">
       <CardContent align="start" position="top" className={styles.cardContentTop}>
         {item_type ? <IconLabel label={item_type} /> : null}
       </CardContent>

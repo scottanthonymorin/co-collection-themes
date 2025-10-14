@@ -1,15 +1,7 @@
-.themeRoot {
+.root {
   /* Theme-level variable overrides (only differences from base) */
   --card-border-radius: 6px;
   --card-min-height: 320px;
-}
-
-.desc {
-  color: var(--card-text-color-mid);
-  font-size: 13px;
-  height: 52px;
-  line-height: 18px;
-  margin: auto 0;
-  text-align: left;
-  width: 100%;
+  --color-secondary: #2c5d95;
+  --item-page-line-height: 1.45rem;
 }

@@ -4,7 +4,7 @@ import item from '../_mocks/gtdc-item.json';
 import CardContainer from '../_decorators/CardContainer';
 
 export default {
-  title: 'Themes/GTDC',
+  title: 'Themes/Gtdc',
   component: GtdcCard,
   decorators: [(Story) => <CardContainer>{Story()}</CardContainer>],
 };

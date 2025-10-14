@@ -8,14 +8,15 @@ import BaseCard from '../../BaseCard';
 import { truncateText } from '../../utils/text.utils';
 import { linkTargetValidator } from '../../utils/prop-types.utils';
 
-import styles from './theme.module.css';
+import theme from './theme.module.css';
+import styles from './Card.module.css';
 
 const Card = ({ CustomLink, href, item, to }) => {
   const { title } = item || {};
   const { short_description, report_url } = item?.custom_fields || {};
 
   return (
-    <BaseCard className={styles.themeRoot} data-theme="gtdc">
+    <BaseCard className={theme.root} data-theme="gtdc">
       <CardContent position="middle">
         <Title
           {...{ CustomLink, href, to }}
