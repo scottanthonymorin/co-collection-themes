@@ -17,7 +17,7 @@ const Card = ({ CustomLink, href, item, to }) => {
   return (
     <BaseCard className={theme.root} data-theme="african-giving-traditions">
       <CardContent align="end" position="top">
-        {location && <Badge>{location}</Badge>}
+        <Badge>{location}</Badge>
       </CardContent>
       <CardContent position="middle">
         <Title

@@ -3,6 +3,7 @@ import { ItemPage as DatamartsItemPage } from './datamarts';
 import { ItemPage as DatasetsItemPage } from './datasets';
 import { ItemPage as GtdcItemPage } from './gtdc';
 import { ItemPage as GtrexItemPage } from './gtrex';
+import { ItemPage as PosterchildItemPage } from './posterchild';
 import { ItemPage as ProblemsSolutionsItemPage } from './problems-solutions';
 import { ItemPage as VizDatabaseItemPage } from './viz-database';
 
@@ -28,6 +29,10 @@ export const itemPageThemeEntries = [
     ItemPageComponent: GtdcItemPage,
   },
   {
+    themeName: ['posterchild'],
+    ItemPageComponent: PosterchildItemPage,
+  },
+  {
     themeName: ['problems-solutions'],
     ItemPageComponent: ProblemsSolutionsItemPage,
   },
@@ -43,6 +48,7 @@ export {
   DatasetsItemPage,
   GtrexItemPage,
   GtdcItemPage,
+  PosterchildItemPage,
   ProblemsSolutionsItemPage,
   VizDatabaseItemPage,
 };

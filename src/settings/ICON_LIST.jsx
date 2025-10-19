@@ -14,11 +14,17 @@ import { CgFileDocument } from 'react-icons/cg';
 import { HiDocumentMagnifyingGlass, HiOutlineAcademicCap } from 'react-icons/hi2';
 import { LuClipboardCheck, LuNetwork } from 'react-icons/lu';
 import { RiPresentationFill } from 'react-icons/ri';
-import { BsListColumnsReverse, BsDatabaseFillDown, BsDatabaseFill } from 'react-icons/bs';
+import {
+  BsListColumnsReverse,
+  BsDatabaseFillDown,
+  BsDatabaseFill,
+  BsFillFileEarmarkBarGraphFill,
+} from 'react-icons/bs';
 import { CiVideoOn } from 'react-icons/ci';
 import { TbBrowserShare } from 'react-icons/tb';
 import { GiArchiveResearch } from 'react-icons/gi';
 import { IoIosOpen } from 'react-icons/io';
+import { IoLibrarySharp } from 'react-icons/io5';
 
 // TODO: handle fallback if icon not found
 // TODO: figure a way to optimize ALL OF THIS...
@@ -54,6 +60,8 @@ const ICON_LIST = [
   // datasets
   { label: 'BsDatabaseFill', icon: BsDatabaseFill },
   { label: 'IoIosOpen', icon: IoIosOpen },
+  { label: 'BsFillFileEarmarkBarGraphFill', icon: BsFillFileEarmarkBarGraphFill },
+  { label: 'IoLibrarySharp', icon: IoLibrarySharp },
 ];
 
 export const findIcon = (iconName) => {

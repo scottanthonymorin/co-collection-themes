@@ -1,0 +1,353 @@
+{
+  "_id": "671264eeedefc3ef03a07c22",
+  "_collection": "66f6bacf6a2a20ce74d6a0d9",
+  "creation_date": "2024-10-18T13:38:54.918Z",
+  "published": true,
+  "title": "Fundraising Effectiveness Project (FEP)",
+  "author": [""],
+  "desc": "The Fundraising Effectiveness Project (FEP) is a collaboration of fundraising data providers, researchers, analysts, associations, and consultants aiming to empower the social sector to track and evaluate trends in US giving. The project offers one of the only views of current fundraising data in aggregate to provide the most recent trends on the philanthropic ecosystem.\n\nThe Data Commons currently hosts the Fundraising Effectiveness Project (FEP) - an initiative aimed at improving fundraising effectiveness through data-driven strategies and insights. The project produces a leading social sector benchmarking report that is released on a quarterly basis in collaboration with the Association of Fundraising Professionals.\n\nThe project involves analyzing aggregated fundraising data and trends to identify best practices and optimize fundraising efforts. The FEP offers quarterly views of the current year’s fundraising data in aggregate, serving as a benchmark for nonprofit executives, development staff, and researchers to examine key fundraising and donor metrics.\n\n\n\nKey Components:\n- The report is generated using the Fundraising Effectiveness Project (FEP) database, the world's largest donation transaction dataset.\n- Providing actionable insights and recommendations for improving fundraising strategies.\n- Enhancing collaboration and knowledge-sharing within the philanthropic community, our data is currently sourced thanks to the generous contribution of 7 -  - - Leading data providers in the sector, with more joining every quarter!",
+  "resource_url": "",
+  "slug": "fundraising-effectiveness-project-fep-671264eeedefc3ef03a07c22",
+  "custom_fields": {
+    "short_description": "Aggregate view of current fundraising data to provide the most recent trends on the philanthropic ecosystem.",
+    "data_contained": "The data includes donation data and organization metadata (including cause area and geolocational data) uploaded on a monthly basis.",
+    "access_details": "",
+    "access_request_url": "https://docs.google.com/forms/d/e/1FAIpQLScpjcv1Tft8xSa_ANUOroyr3lbdbj6M_ocLSi_ZwtEYgDeegw/viewform?usp=sharing",
+    "update_schedule": "Industry partners provide data on a monthly basis. FEP reports are generated on a quarterly basis (approximate release dates: Q1 in Jul, Q2 in Oct, Q3 in Jan, Q4 in Apr).",
+    "designed_for": "Social sector platforms, researchers, nonprofit staff, and consultants.",
+    "use_cases": "A nonprofit professional wants to understand whether donor and donation counts have gone up or down year-over-year to inform their fundraising practices.",
+    "key_supporters": [
+      "Bloomerang",
+      "DonorPerfect",
+      "GiveSmart",
+      "GoFundMe Pro",
+      "NeonOne",
+      "Qgiv"
+    ],
+    "website_url": "https://fepreports.org/",
+    "report_url": "https://publications.fepreports.org/",
+    "learn_more": "",
+    "initiative_type": "Research Project",
+    "project_assets": ["Report", "Dataset", "Blog"],
+    "topics": ["Resource Mobilization", "Effective Fundraising"],
+    "project_image": [
+      "https://cdn-co-ajah-ca.nyc3.cdn.digitaloceanspaces.com/_development/gtdc_projects/fep_logo.png"
+    ],
+    "assets_gtrex": "https://www.givingtuesday.org/resource-exchange/library/?sort=relevance%3Adesc&subcollection=GivingTuesday&page=1&q=Fundraising+Effectiveness+Project",
+    "assets_vizlib": "https://www.givingtuesday.org/visualizations-library/?sort=data_years%3Adesc&page=1&report=FEP",
+    "givinglab-widget": [
+      "6888cc5bab51d85485c5a730",
+      "682de7ea930b6eb7b11dfeec",
+      "68068b7f4f07511c3c5238e8",
+      "67536b84e25c2d0079740bda"
+    ],
+    "viz-database-widget": [
+      "688858bcab51d85485c5a158",
+      "688858bcab51d85485c5a178",
+      "688858bcab51d85485c5a198",
+      "688858bdab51d85485c5a1b8"
+    ],
+    "datasets-widget": ["6788fef5141dbd17de683645"],
+    "datasets-widget_DATA": [
+      {
+        "_id": "6788fef5141dbd17de683645",
+        "_collection": "677bcbf049ad2a720b5c6295",
+        "creation_date": "2025-01-16T12:43:33.344Z",
+        "published": true,
+        "title": "FEP Dataset",
+        "author": [
+          "GivingTuesday Data Commons,Association of Fundraising Professionals (AFP)"
+        ],
+        "desc": "The FEP Quarterly Fundraising Report analyzes transaction-level data on donations from individuals to organizations in the nonprofit sector. The report is based on the Growth In Giving Dataset, a transaction-level dataset from multiple data providers that spans over $60B in transactions dating back to 2005.",
+        "resource_url": "",
+        "slug": "fundraising-effectiveness-project-fep-dataset-6788fef5141dbd17de683645",
+        "custom_fields": {
+          "short_desc": "Multi provider transaction-level dataset totaling $60B+ since 2005",
+          "data_ownership": "GivingTuesday Datasets",
+          "region": ["United States and Canada"],
+          "dataset_type": "Transaction Data",
+          "access_level": "Registration Required",
+          "year_published": "2024",
+          "topics": ["Resource Mobilization", "Effective Fundraising"],
+          "gtdc_project": "<a href='https://data.givingtuesday.org/projects/?co-item=fundraising-effectiveness-project-fep-671264eeedefc3ef03a07c22#our-work' _blank>Fundraising Effectiveness Project (FEP)</a>",
+          "website_url": "https://fepreports.org/",
+          "dataset_documentation": "https://gtdata.notion.site/Fundraising-Effectiveness-Project-7e7bde2e4bb34ec7b52be2a46de9fb0d",
+          "dataset_image": "https://cdn-co-ajah-ca.nyc3.cdn.digitaloceanspaces.com/_development/gtrex/custom-theme/FEP-01.png",
+          "access_request": "https://docs.google.com/forms/d/e/1FAIpQLScpjcv1Tft8xSa_ANUOroyr3lbdbj6M_ocLSi_ZwtEYgDeegw/viewform?usp=sharing"
+        },
+        "page_views": 4
+      }
+    ],
+    "viz-database-widget_DATA": [
+      {
+        "_id": "688858bcab51d85485c5a158",
+        "_collection": "66885a877aada3ba4bdf25bb",
+        "published": true,
+        "title": "Year-Over-Year Change in Donors, Dollars and Retention",
+        "author": [
+          "GivingTuesday Data Commons",
+          "Association of Fundraising Professionals (AFP)"
+        ],
+        "desc": "This metrics dashboard reveals mixed year-over-year performance trends, with donor participation declining 1.3% while total dollars raised increased 3.6%. Donor retention dropped slightly by 0.1 percentage points. The data suggests that while fewer people gave, those who participated contributed more on average, resulting in net positive revenue growth despite declining donor numbers.",
+        "resource_url": "",
+        "slug": "year-over-year-change-in-donors-dollars-and-retention-688858bcab51d85485c5a158",
+        "custom_fields": {
+          "image_url": "https://cdn-co-ajah-ca.nyc3.cdn.digitaloceanspaces.com/_development/test_viz_library/FEP%202025%20Q1%20-%201.png",
+          "report_url": "https://publications.fepreports.org/",
+          "slide_url": "",
+          "data_years": ["2025"],
+          "event_name": "",
+          "report": "FEP",
+          "report_edition": "FEP 2025 Q1",
+          "source": "2025 Q1 - Fundraising Effectiveness Project (FEP) Quarterly Fundraising Report",
+          "topic": ["Donor Behavior and Motivation", "Effective Fundraising"],
+          "viz_type": ["Metrics"],
+          "template_url": "",
+          "editable_content": ""
+        },
+        "page_views": 0,
+        "creation_date": "2025-07-29T05:14:36.770Z"
+      },
+      {
+        "_id": "688858bcab51d85485c5a178",
+        "_collection": "66885a877aada3ba4bdf25bb",
+        "published": true,
+        "title": "FEP 2025 Panel Sample",
+        "author": [
+          "GivingTuesday Data Commons",
+          "Association of Fundraising Professionals (AFP)"
+        ],
+        "desc": "This infographic displays three key metrics for the 2025 panel sample: 2.4 million donors contributed $2.6 billion across 15,025 participating organizations year-to-date. These headline figures demonstrate the broad organizational participation in the annual giving landscape measured by the Fundraising Effectiveness Project.",
+        "resource_url": "",
+        "slug": "fep-2025-panel-sample-688858bcab51d85485c5a178",
+        "custom_fields": {
+          "image_url": "https://cdn-co-ajah-ca.nyc3.cdn.digitaloceanspaces.com/_development/test_viz_library/FEP%202025%20Q1%20-%202.png",
+          "report_url": "https://publications.fepreports.org/",
+          "slide_url": "",
+          "data_years": ["2025"],
+          "event_name": "",
+          "report": "FEP",
+          "report_edition": "FEP 2025 Q1",
+          "source": "2025 Q1 - Fundraising Effectiveness Project (FEP) Quarterly Fundraising Report",
+          "topic": [
+            "Dimensions of Generosity",
+            "Donor Behavior and Motivation",
+            "Effective Fundraising"
+          ],
+          "viz_type": ["Metrics"],
+          "template_url": "",
+          "editable_content": ""
+        },
+        "page_views": 0,
+        "creation_date": "2025-07-29T05:14:36.867Z"
+      },
+      {
+        "_id": "688858bcab51d85485c5a198",
+        "_collection": "66885a877aada3ba4bdf25bb",
+        "published": true,
+        "title": "Year-Over-Year Percentage Change in Donor Counts",
+        "author": [
+          "GivingTuesday Data Commons",
+          "Association of Fundraising Professionals (AFP)"
+        ],
+        "desc": "This yearly comparison chart shows Q1 year-on-year donor growth from 2021-2025. After strong 9.3% growth in Q1 2021, donor numbers declined significantly with a 10.2% drop in Q1 2022, a 7.1% decline in Q1 2023, a 3.0% decrease in Q1 2024, and a projected 1.3% decline in Q1 2025. While the trend suggests the rate of donor decline is falling, the chart demonstrates persistent challenges in donor acquisition and retention over multiple years.",
+        "resource_url": "",
+        "slug": "year-over-year-percentage-change-in-donor-counts-688858bcab51d85485c5a198",
+        "custom_fields": {
+          "image_url": "https://cdn-co-ajah-ca.nyc3.cdn.digitaloceanspaces.com/_development/test_viz_library/FEP%202025%20Q1%20-%203.png",
+          "report_url": "https://publications.fepreports.org/",
+          "slide_url": "",
+          "data_years": ["2021", "2022", "2023", "2024", "2025"],
+          "event_name": "",
+          "report": "FEP",
+          "report_edition": "FEP 2025 Q1",
+          "source": "2025 Q1 - Fundraising Effectiveness Project (FEP) Quarterly Fundraising Report",
+          "topic": ["Donor Behavior and Motivation", "Effective Fundraising"],
+          "viz_type": ["Bar graphs"],
+          "template_url": "",
+          "editable_content": ""
+        },
+        "page_views": 0,
+        "creation_date": "2025-07-29T05:14:36.942Z"
+      },
+      {
+        "_id": "688858bdab51d85485c5a1b8",
+        "_collection": "66885a877aada3ba4bdf25bb",
+        "published": true,
+        "title": "Monthly Year-To-Date Year-Over-Year Change in Donation Counts",
+        "author": [
+          "GivingTuesday Data Commons",
+          "Association of Fundraising Professionals (AFP)"
+        ],
+        "desc": "This line chart tracks the year-to-date monthly donor performance year-over-year across three years, showing consistent negative trends. In 2023, donors declined 6% in January as compared to January 2022, widening to a 9% year-over-year decline by September, but strong end of year performance meant there was only a slight donor decline of 1.1% by the end of the year. Donor declines progressively worsened across all of 2024. Without adjusting for late data, there has been an initial decline in decline in donors for Q1 2025. ",
+        "resource_url": "",
+        "slug": "monthly-year-to-date-year-over-year-change-in-donation-counts-688858bdab51d85485c5a1b8",
+        "custom_fields": {
+          "image_url": "https://cdn-co-ajah-ca.nyc3.cdn.digitaloceanspaces.com/_development/test_viz_library/FEP%202025%20Q1%20-%204.png",
+          "report_url": "https://publications.fepreports.org/",
+          "slide_url": "",
+          "data_years": ["2023", "2024", "2025"],
+          "event_name": "",
+          "report": "FEP",
+          "report_edition": "FEP 2025 Q1",
+          "source": "2025 Q1 - Fundraising Effectiveness Project (FEP) Quarterly Fundraising Report",
+          "topic": ["Donor Behavior and Motivation", "Effective Fundraising"],
+          "viz_type": ["Line/Scatter graphs"],
+          "template_url": "",
+          "editable_content": ""
+        },
+        "page_views": 0,
+        "creation_date": "2025-07-29T05:14:37.016Z"
+      }
+    ],
+    "givinglab-widget_DATA": [
+      {
+        "_id": "67536b84e25c2d0079740bda",
+        "_collection": "6554d2a567d9690164175a60",
+        "creation_date": "2024-12-06T21:24:20.000Z",
+        "published": true,
+        "title": "2024 Q3 - Fundraising Effectiveness Project (FEP) Quarterly Fundraising Report",
+        "author": [
+          "GivingTuesday Data Commons",
+          "Association of Fundraising Professionals (AFP)"
+        ],
+        "desc": "The Fundraising Effectiveness Project (FEP) delivers trusted data insights that help fundraisers improve their outcomes, driving growth and increasing generosity across the nonprofit sector. We envision a sector where actionable data guides every fundraiser’s decisions, helping nonprofits become more effective and adaptive. Since its founding in 2006, FEP has become a leading resource for data-driven insights. FEP is a collaborative project of the Association of Fundraising Professionals (AFP) Foundation for Philanthropy and GivingTuesday.",
+        "resource_url": "https://drive.google.com/file/d/1HmhKRwzh_CZOwZp23X_tqubxBQWp8Q-7/view?usp=sharing",
+        "slug": "2024-q3-fundraising-effectiveness-project-fep-quarterly-fundraising-report-67536b84e25c2d0079740bda",
+        "custom_fields": {
+          "region": ["United States and Canada"],
+          "subcollection": ["GivingTuesday"],
+          "resource_type": "Report",
+          "access_level": "Open Access",
+          "year_published": "2024",
+          "gtdc_project": [
+            "<a href='https://data.givingtuesday.org/projects/?co-item=fundraising-effectiveness-project-fep-671264eeedefc3ef03a07c22#our-work' _blank>Fundraising Effectiveness Project (FEP)</a>"
+          ],
+          "topics": ["Resource Mobilization", "Effective Fundraising"],
+          "access_request": "",
+          "country": ["United States"],
+          "viz_url": "https://www.givingtuesday.org/visualizations-library/?sort=data_years%3Adesc&report_edition=FEP+2024+Q3",
+          "cover_url": "https://cdn-co-ajah-ca.nyc3.cdn.digitaloceanspaces.com/_development/gtrex/custom-theme/FEP-01.png",
+          "dataset_documentation": "",
+          "widget_viz-library": [
+            "675850626618ea86bb648856",
+            "675850626618ea86bb64887b",
+            "675850626618ea86bb6488a0",
+            "675850626618ea86bb6488c5"
+          ]
+        },
+        "page_views": 4
+      },
+      {
+        "_id": "68068b7f4f07511c3c5238e8",
+        "_collection": "6554d2a567d9690164175a60",
+        "published": true,
+        "title": "2024 Q4 - Fundraising Effectiveness Project (FEP) Quarterly Fundraising Report",
+        "author": [
+          "GivingTuesday Data Commons",
+          "Association of Fundraising Professionals (AFP)"
+        ],
+        "desc": "The Fundraising Effectiveness Project (FEP) delivers trusted data insights that help fundraisers improve their outcomes, driving growth and increasing generosity across the nonprofit sector. We envision a sector where actionable data guides every fundraiser’s decisions, helping nonprofits become more effective and adaptive. Since its founding in 2006, FEP has become a leading resource for data-driven insights. FEP is a collaborative project of the Association of Fundraising Professionals (AFP) Foundation for Philanthropy and GivingTuesday.\n\nWe removed organizations that did not have a minimum of 25 donations and $5,000 in revenue in each of the previous three years. We removed organizations at either tail of the revenue growth curve. If revenue growth was more than 300% or less than -66% in any of the past three years, organizations were removed. We also excluded individual contributions above $10M. We weighted our data by organization size and NTEE major group to make it reflective of 2018 IRS filers in the $5K - $25M range of contributions. In 2018, there were 222K IRS filers in this contributions range and passing our growth and size filters, making this report representative of 3.9% of the total relevant filers. Details regarding estimation methodology for late reported data can be found here.",
+        "resource_url": "https://drive.google.com/file/d/1HByxTkihv-DYuIuDY3aACjrVGIj9lQiW/view?usp=drive_link",
+        "slug": "2024-q4-fundraising-effectiveness-project-fep-quarterly-fundraising-report-68068b7f4f07511c3c5238e8",
+        "custom_fields": {
+          "region": ["United States and Canada"],
+          "subcollection": ["GivingTuesday"],
+          "resource_type": "Report",
+          "access_level": "Open Access",
+          "year_published": "2025",
+          "gtdc_project": [
+            "<a href='https://data.givingtuesday.org/projects/?co-item=fundraising-effectiveness-project-fep-671264eeedefc3ef03a07c22#our-work' _blank>Fundraising Effectiveness Project (FEP)</a>"
+          ],
+          "topics": ["Resource Mobilization", "Effective Fundraising"],
+          "access_request": "",
+          "country": ["United States"],
+          "viz_url": "https://www.givingtuesday.org/visualizations-library/?sort=data_years%3Adesc&report_edition=FEP+2024+Q4",
+          "cover_url": "https://cdn-co-ajah-ca.nyc3.cdn.digitaloceanspaces.com/_development/gtrex/custom-theme/FEP-01.png",
+          "dataset_documentation": "",
+          "widget_viz-library": [
+            "680a38034f07511c3c525758",
+            "680a38044f07511c3c52589c",
+            "680a38044f07511c3c5258b7",
+            "680a38034f07511c3c52578e"
+          ]
+        },
+        "creation_date": "2025-04-21T18:16:31.000Z",
+        "page_views": 4
+      },
+      {
+        "_id": "682de7ea930b6eb7b11dfeec",
+        "_collection": "6554d2a567d9690164175a60",
+        "published": true,
+        "title": "Growing Giving: How Nonprofits Can Unlock Billions in Generosity",
+        "author": ["GivingTuesday"],
+        "desc": "Utilizing data from the Fundraising Effectiveness Project (FEP) and GivingPulse, we attempted to better understand what these data may be able to tell us about the opportunities we haven’t yet realized in the giving economy. We looked at three key opportunities to grow giving – recurring, solicitation, and deseasonalization.",
+        "resource_url": "https://www.givingtuesday.org/blog/growing-giving/",
+        "slug": "growing-giving-how-nonprofits-can-unlock-billions-in-generosity-682de7ea930b6eb7b11dfeec",
+        "custom_fields": {
+          "region": ["United States and Canada"],
+          "subcollection": ["GivingTuesday"],
+          "resource_type": "Blog",
+          "access_level": "Open Access",
+          "year_published": "2025",
+          "topics": [
+            "Resource Mobilization",
+            "Dimensions of Generosity",
+            "Nonmonetary Giving",
+            "Donor Behavior and Motivation, Resource Mobilization",
+            "Effective Fundraising"
+          ],
+          "gtdc_project": [
+            "<a href='https://data.givingtuesday.org/projects/?co-item=givingpulse-671264efedefc3ef03a07c74#our-work' _blank>GivingPulse</a>, <a href='https://data.givingtuesday.org/projects/?co-item=fundraising-effectiveness-project-fep-671264eeedefc3ef03a07c22#our-work' _blank>Fundraising Effectiveness Project (FEP)</a>"
+          ],
+          "access_request": "",
+          "country": ["United States"],
+          "viz_url": "",
+          "cover_url": "https://cdn-co-ajah-ca.nyc3.cdn.digitaloceanspaces.com/_development/test_viz_library/GrowingGiving-01.png",
+          "dataset_documentation": "",
+          "widget_viz-library": ""
+        },
+        "page_views": 3,
+        "creation_date": "2025-05-21T14:49:14.664Z"
+      },
+      {
+        "_id": "6888cc5bab51d85485c5a730",
+        "_collection": "6554d2a567d9690164175a60",
+        "published": true,
+        "title": "2025 Q1 - Fundraising Effectiveness Project (FEP) Quarterly Fundraising Report",
+        "author": [
+          "GivingTuesday Data Commons",
+          "Association of Fundraising Professionals (AFP)"
+        ],
+        "desc": "The Fundraising Effectiveness Project (FEP) delivers trusted data insights that help fundraisers improve their outcomes, driving growth and increasing generosity across the nonprofit sector. We envision a sector where actionable data guides every fundraiser’s decisions, helping nonprofits become more effective and adaptive. Since its founding in 2006, FEP has become a leading resource for data-driven insights. FEP is a collaborative project of the Association of Fundraising Professionals (AFP) Foundation for Philanthropy and GivingTuesday.\n\nWe removed organizations that did not have a minimum of 25 donations and $5,000 in revenue in each of the previous three years. We removed organizations at either tail of the revenue growth curve. If revenue growth was more than 300% or less than -66% in any of the past three years, organizations were removed. We also excluded individual contributions above $10M. We weighted our data by organization size and NTEE major group to make it reflective of 2018 IRS filers in the $5K - $25M range of contributions. In 2018, there were 222K IRS filers in this contributions range and passing our growth and size filters, making this report representative of 3.9% of the total relevant filers. Details regarding estimation methodology for late reported data can be found here.",
+        "resource_url": "https://publications.fepreports.org/",
+        "slug": "2025-q1-fundraising-effectiveness-project-fep-quarterly-fundraising-report-6888cc5bab51d85485c5a730",
+        "custom_fields": {
+          "region": ["United States and Canada"],
+          "subcollection": ["GivingTuesday"],
+          "resource_type": "Report",
+          "access_level": "Open Access",
+          "year_published": "2025",
+          "gtdc_project": [
+            "<a href='https://data.givingtuesday.org/projects/?co-item=fundraising-effectiveness-project-fep-671264eeedefc3ef03a07c22#our-work' _blank>Fundraising Effectiveness Project (FEP)</a>"
+          ],
+          "topics": ["Resource Mobilization", "Effective Fundraising"],
+          "access_request": "",
+          "country": ["United States"],
+          "viz_url": "https://www.givingtuesday.org/visualizations-library/?sort=data_years%3Adesc&report_edition=FEP+2025+Q1",
+          "cover_url": "https://cdn-co-ajah-ca.nyc3.cdn.digitaloceanspaces.com/_development/gtrex/custom-theme/FEP-01.png",
+          "dataset_documentation": "",
+          "widget_viz-library": [
+            "688858bcab51d85485c5a158",
+            "688858bcab51d85485c5a178",
+            "688858bcab51d85485c5a198",
+            "688858bdab51d85485c5a1b8"
+          ]
+        },
+        "page_views": 11,
+        "creation_date": "2025-07-29T13:27:55.562Z"
+      }
+    ]
+  },
+  "page_views": 20
+}

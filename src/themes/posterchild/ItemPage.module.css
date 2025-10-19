@@ -1,0 +1,68 @@
+@import '../datamarts/ItemPage.module.css';
+
+.title {
+  color: var(--color-secondary);
+  font-family: var(--font-family-heading);
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.mainContent img {
+  height: fit-content;
+  width: 100%;
+}
+.htmlDescription {
+  flex: 1;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.datapoints {
+  background: var(--color-accent);
+  border-radius: var(--card-border-radius);
+  margin: 0 auto 5rem;
+  max-width: 830px;
+  padding: 1rem;
+}
+
+.widgetWrapper {
+  margin: 1rem 0 3rem;
+}
+
+.widgetTitle {
+  color: var(--color-secondary);
+  font-family: var(--font-family-heading);
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
+
+@media (min-width: 820px) {
+  .title {
+    font-size: 2rem;
+    line-height: 2.75rem;
+    margin-top: 2rem;
+    padding: 0 0 1rem 0;
+    text-align: center;
+  }
+  .mainContent {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .mainContent img {
+    margin-right: 3rem;
+    width: 30%;
+  }
+  .widgetTitle {
+    font-size: 1.75rem;
+    line-height: 2.75rem;
+    margin-top: 2rem;
+    padding: 0 0 1rem 0;
+    text-align: center;
+  }
+}
