@@ -74,7 +74,7 @@ const ItemPage = ({ itemData }) => {
         <Datapoint label="Learn More about this Project" data={learn_more} />
         <Datapoint
           label="Key Supporters"
-          data={key_supporters.map((supporter) => (
+          data={key_supporters?.map((supporter) => (
             <li>{supporter}</li>
           ))}
         />

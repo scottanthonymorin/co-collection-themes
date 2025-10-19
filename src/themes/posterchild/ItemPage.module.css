@@ -1,4 +1,8 @@
-@import '../datamarts/ItemPage.module.css';
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
 .title {
   color: var(--color-secondary);
