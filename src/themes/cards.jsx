@@ -3,6 +3,7 @@ import { Card as DatamartsCard } from './datamarts';
 import { Card as DatasetsCard } from './datasets';
 import { Card as GtrexCard } from './gtrex';
 import { Card as GtdcCard } from './gtdc';
+import { Card as PosterchildCard } from './posterchild';
 import { Card as ProblemsSolutionsCard } from './problems-solutions';
 import { Card as VizDatabaseCard } from './viz-database';
 
@@ -18,6 +19,7 @@ export const cardThemeEntries = [
     CardComponent: GtrexCard,
   },
   { themeName: ['gtdc', 'gtdc-projects'], CardComponent: GtdcCard },
+  { themeName: ['posterchild'], CardComponent: PosterchildCard },
   { themeName: ['problems-solutions'], CardComponent: ProblemsSolutionsCard },
   { themeName: ['viz-database', 'viz-database-beta'], CardComponent: VizDatabaseCard },
 ];
@@ -28,6 +30,7 @@ export {
   DatasetsCard,
   GtrexCard,
   GtdcCard,
+  PosterchildCard,
   ProblemsSolutionsCard,
   VizDatabaseCard,
 };
