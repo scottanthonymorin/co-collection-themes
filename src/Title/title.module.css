@@ -14,11 +14,13 @@
   color: var(--card-title-color);
   font-family: var(--font-family-heading);
   font-size: var(--card-title-font-size);
-  line-height: 24px;
+  line-height: var(--card-title-line-height);
   cursor: pointer;
   text-decoration: none;
 }
 
 .title > a:hover {
-  border-bottom: 1px solid var(--palette-primary, #000);
+  border-bottom: 1px solid var(--color-primary, #000);
+  color: var(--card-title-color-hover, var(--card-title-color));
+  transition: all 0.2s linear;
 }

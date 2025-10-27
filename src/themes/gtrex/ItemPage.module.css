@@ -49,6 +49,14 @@
   grid-template-columns: 1.5fr 2fr;
   margin: 0 0 2rem 0;
 }
+.additionalInfo a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+.additionalInfo a:hover {
+  color: var(--color-primary);
+  text-decoration: none;
+}
 .additionalInfoText {
   margin: 0.25rem 0;
 }
