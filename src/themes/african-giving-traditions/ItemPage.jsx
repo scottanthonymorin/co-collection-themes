@@ -55,11 +55,11 @@ const ItemPage = ({ itemData }) => {
           </ul>
         </div>
         <div className={styles.content}>
-          <h1>{title}</h1>
+          <h1 className={styles.title}>{title}</h1>
           <div dangerouslySetInnerHTML={{ __html: htmlDescription }} />
           {bibliography ? (
             <section>
-              <h2>Bibliography</h2>
+              <h2 className={styles.h2}>Bibliography</h2>
               <div dangerouslySetInnerHTML={{ __html: htmlBibliography }} />
             </section>
           ) : null}

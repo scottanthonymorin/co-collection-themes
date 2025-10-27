@@ -1,11 +1,11 @@
 .cardContentTop {
   color: #fff;
   margin-bottom: 2rem;
-  padding: 1.5rem 1rem;
 }
 
 .cardContentTop p {
-  font-family: var(--font-family-heading) !important;
+  color: #fff;
+  font-family: var(--font-family-heading);
 }
 
 .authorContainer {
