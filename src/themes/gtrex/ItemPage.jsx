@@ -44,7 +44,7 @@ const ItemPage = ({ itemData }) => {
     topics,
     year_published,
     viz_url,
-    'widget_viz-library_items': widgetVizLibraryItems,
+    'widget_viz-library_DATA': widgetVizLibraryItems,
   } = custom_fields;
 
   const htmlDescription = useConvertToHtml(description);
