@@ -55,7 +55,7 @@ const ItemPage = ({ itemData }) => {
           newWindow
           url={image_url || slide_url || report_url || template_url}
         >
-          <IconLabel icon="External Link" label="Access Visualization" />
+          <IconLabel as="span" icon="External Link" label="Access Visualization" />
         </LinkButton>
       </div>
       <div className={styles.datapointWrapper}>

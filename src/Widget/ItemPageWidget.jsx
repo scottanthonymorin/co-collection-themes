@@ -2,7 +2,13 @@ import React from 'react';
 
 import styles from './Widget.module.css';
 
-const ItemPageWidget = ({ items, CardComponent, maxCardsPerRow = 5, ...props }) => {
+const ItemPageWidget = ({
+  items,
+  CardComponent,
+  embedUrl,
+  maxCardsPerRow = 5,
+  ...props
+}) => {
   const itemCount = items?.length || 0;
 
   if (!CardComponent) {
@@ -18,7 +24,7 @@ const ItemPageWidget = ({ items, CardComponent, maxCardsPerRow = 5, ...props }) 
       {...props}
     >
       {items?.map((item) => (
-        <CardComponent key={item._id} item={item} />
+        <CardComponent key={item._id} href={`${embedUrl}?co=${item.slug}`} item={item} />
       ))}
     </div>
   );

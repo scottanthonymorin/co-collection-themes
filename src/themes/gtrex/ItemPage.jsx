@@ -44,7 +44,7 @@ const ItemPage = ({ itemData }) => {
     topics,
     year_published,
     viz_url,
-    'widget_viz-library_DATA': widgetVizLibraryItems,
+    'widget_viz-library_items': widgetVizLibraryItems,
   } = custom_fields;
 
   const htmlDescription = useConvertToHtml(description);
@@ -108,18 +108,22 @@ const ItemPage = ({ itemData }) => {
             className={styles.itemDesc}
             dangerouslySetInnerHTML={{ __html: htmlDescription }}
           />
+          <div className={styles.ctaContainer}>
+            <LinkButton newWindow isCentered url={resource_url}>
+              <IconLabel as="span" icon="External Link" label="Access Resource" />
+            </LinkButton>
+            <LinkButton newWindow isCentered url={access_request}>
+              <IconLabel as="span" icon="External Link" label="Access Dataset" />
+            </LinkButton>
+            <LinkButton newWindow isCentered url={dataset_documentation}>
+              <IconLabel
+                as="span"
+                icon="External Link"
+                label="Access Data Documentation"
+              />
+            </LinkButton>
+          </div>
         </div>
-      </div>
-      <div className={styles.ctaContainer}>
-        <LinkButton newWindow isCentered url={resource_url}>
-          <IconLabel as="span" icon="External Link" label="Access Resource" />
-        </LinkButton>
-        <LinkButton newWindow isCentered url={access_request}>
-          <IconLabel as="span" icon="External Link" label="Access Dataset" />
-        </LinkButton>
-        <LinkButton newWindow isCentered url={dataset_documentation}>
-          <IconLabel as="span" icon="External Link" label="Access Data Documentation" />
-        </LinkButton>
       </div>
 
       {widgetVizLibraryItems?.length > 0 ? (

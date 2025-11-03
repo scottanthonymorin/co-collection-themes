@@ -1,3 +1,6 @@
+import styles from './BaseCard.module.css';
+import pageStyles from '../BaseItemPage/BaseItemPage.module.css';
+
 /**
  * @file Provides a reusable, styled card container for consistent layout and spacing across the app.
  * Exports the BaseCard component and a CardWrapper alias for semantic usage.
@@ -17,15 +20,7 @@
  * @param {string} [props.className] - Extra class names appended to the default classes.
  * @param {...any} [rest] - Additional DOM attributes (e.g., id, onClick, data-*, aria-*) forwarded to the root div.
  * @returns {JSX.Element} A styled div that wraps its children.
- * @example
- * <BaseCard className="my-card" style={{ maxWidth: 480 }} aria-live="polite">
- *   <h3>Title</h3>
- *   <p>Body content</p>
- * </BaseCard>
  */
-
-import styles from './BaseCard.module.css';
-import pageStyles from '../BaseItemPage/BaseItemPage.module.css';
 
 const BaseCard = ({ children, style, className = '', ...rest }) => {
   return (
